@@ -16,7 +16,7 @@ namespace HeroesManual
 
 		private async void Button_Clicked(object sender, EventArgs e)
 		{
-			//await Navigation.PushAsync(new ProfessionsPage());
+			await Navigation.PushAsync(new ProfessionsPage());
 		}
 
 		private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
