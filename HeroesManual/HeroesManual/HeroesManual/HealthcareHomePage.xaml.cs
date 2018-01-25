@@ -26,7 +26,7 @@ namespace HeroesManual
 
 		private async void btnWhatToSay_Clicked(object sender, EventArgs e)
 		{
-			
+			await Navigation.PushAsync(new CommunicationTipsPage());
 		}
 
 		private async void btnProvideResources_Clicked(object sender, EventArgs e)

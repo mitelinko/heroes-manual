@@ -16,6 +16,7 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ProfessionsPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)HealthcareHomePage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CommunicationTipsPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +34,10 @@
 
 	<Compile Include="$(MSBuildThisFileDirectory)HealthcareHomePage.xaml.cs">
       <DependentUpon>HealthcareHomePage.xaml</DependentUpon>
+    </Compile>
+
+    <Compile Include="$(MSBuildThisFileDirectory)CommunicationTipsPage.xaml.cs">
+      <DependentUpon>CommunicationTipsPage.xaml</DependentUpon>
     </Compile>
 
   </ItemGroup>
