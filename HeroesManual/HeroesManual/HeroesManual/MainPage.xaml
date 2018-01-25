@@ -2,10 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HeroesManual"
-             x:Class="HeroesManual.MainPage">
+             x:Class="HeroesManual.MainPage" 
+             NavigationPage.HasNavigationBar="False">
+    
+    <StackLayout>
+            <Label Margin="0,10,0,0" HorizontalOptions="CenterAndExpand" Text="DISCLAIMER" Font="Bold,20"/>
+            <ScrollView Scrolled="ScrollView_Scrolled">
+                <Label Margin="20,10,20,20" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nibh, interdum dapibus nibh in, scelerisque blandit erat. Etiam viverra eget arcu et ultrices. Curabitur urna erat, porttitor vitae venenatis laoreet, placerat auctor odio. Cras vel commodo sem. Morbi pharetra diam eu ornare sollicitudin. Nam ac iaculis dui, eu maximus neque. In hac habitasse platea dictumst.
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+Duis in feugiat lectus. Aliquam erat volutpat. Praesent sit amet nunc libero. Sed consequat scelerisque ligula, ac ultrices augue malesuada eu. Vestibulum luctus mi massa, non bibendum felis feugiat vitae. Vestibulum pharetra, est sit amet consectetur tincidunt, purus elit iaculis tellus, a facilisis arcu nibh a enim. Ut justo risus, commodo ac auctor ut, egestas sed libero. Nam placerat, diam non suscipit ultricies, nisi felis vestibulum est, et fringilla diam est sit amet felis. Suspendisse sed consectetur nulla. Mauris at metus magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sit amet rutrum nunc. Nunc accumsan elit augue, eget suscipit purus vehicula ullamcorper. Duis quis justo id leo porta congue ut vitae dolor.
+
+Proin sed consectetur nibh, quis rutrum mauris. Phasellus tristique vitae mi sit amet viverra. Pellentesque id magna dolor. Proin lacus eros, elementum a gravida et, imperdiet eu lectus. Aliquam ultricies vulputate sem, eget tincidunt ante pharetra at. Duis ultricies gravida libero ut blandit. Quisque at elit a leo accumsan malesuada. Praesent id hendrerit magna.
+
+Pellentesque gravida ullamcorper sapien sed vehicula. Phasellus quis commodo arcu. Sed mollis lorem lacinia dui ultrices, a finibus magna mollis. Sed ornare rutrum scelerisque. Nulla gravida sem nec molestie consectetur. In congue quam vel eros vehicula placerat. Vivamus ac porttitor diam. Aliquam erat volutpat. Vivamus lorem mauris, luctus sed luctus vel, sollicitudin eu urna.
+
+Maecenas tincidunt lobortis mauris id elementum. Curabitur volutpat malesuada nunc, sagittis pellentesque neque vulputate et. Maecenas laoreet diam id laoreet convallis. Curabitur bibendum ex eget rhoncus pulvinar. Aenean ac enim sed nibh dapibus tincidunt quis id ligula. Praesent sollicitudin lectus elit, ut tristique nisi sollicitudin sed. Suspendisse bibendum augue porta, imperdiet tellus dignissim, pellentesque mauris. Integer sed turpis in nunc vestibulum tincidunt in at nibh. Etiam posuere sagittis turpis, vel molestie nunc auctor eget. Curabitur non finibus arcu. Quisque nec fermentum libero. Ut quis nibh in massa suscipit commodo vitae a metus.
+
+Duis turpis orci, volutpat eu cursus sed, sodales a nunc. Integer nec sapien eu nulla mollis dignissim. Suspendisse faucibus euismod finibus. Vestibulum vulputate ut magna at commodo. Nulla cursus arcu ac arcu auctor pharetra. Proin consequat dolor erat, vitae condimentum turpis posuere sit amet. Morbi eu ante sit amet quam convallis facilisis. Phasellus suscipit elit sed justo rutrum lobortis. Aenean dapibus elit id tristique suscipit. Duis sollicitudin nibh a sem scelerisque, eget placerat velit commodo. Donec consequat quam non nulla feugiat, in maximus odio semper.
+
+Ut ornare mauris ipsum, eget pulvinar lectus auctor in. Etiam viverra elementum massa, eu fermentum felis sagittis id. Aliquam id tellus ut odio varius interdum. Sed sem lacus, convallis eleifend libero interdum, auctor ornare enim. Nam consequat ut eros eu porta. Vestibulum malesuada lobortis varius. Suspendisse aliquet vulputate neque, eu varius orci. Ut sit amet metus et nulla hendrerit pellentesque in id odio. Quisque neque arcu, vulputate sagittis justo ut, luctus cursus nisl. Quisque a urna libero. Praesent arcu sem, finibus nec felis vitae, malesuada bibendum leo. Etiam sed luctus libero. Cras sit amet nisl vehicula, auctor quam in, suscipit orci. In hac habitasse platea dictumst.
+
+Donec dignissim sapien scelerisque, rutrum velit ut, molestie mauris. Suspendisse condimentum elementum suscipit. Nam fringilla viverra lorem, ac iaculis est bibendum a. Praesent gravida ante nec orci eleifend pulvinar. Vivamus sit amet metus eget est facilisis porta. Nam a sollicitudin mi. Curabitur quis tortor nulla. Phasellus ac arcu vitae leo placerat interdum. Duis efficitur vehicula porttitor. Nam commodo vulputate mauris id convallis.
+
+Integer dolor massa, accumsan eu lacus quis, bibendum accumsan leo. Morbi ut posuere libero, id blandit lacus. Sed hendrerit maximus metus, eu viverra eros volutpat ultrices. Donec a egestas ligula. Praesent et hendrerit ante. In consectetur massa et dictum lacinia. Nulla facilisi. Maecenas placerat tellus sed nunc scelerisque, sed posuere urna mollis. Curabitur porta erat metus, ac rhoncus magna consequat ut.
+
+Mauris vitae tempus tortor. Mauris dictum rutrum vehicula. Etiam auctor, risus nec consectetur ullamcorper, magna tellus venenatis purus, sed ultrices justo mi et magna. Nulla varius eu sapien sit amet luctus. Proin erat velit, pulvinar ut euismod a, rutrum quis sapien. Pellentesque sodales volutpat eros, eu iaculis nisi sollicitudin sit amet. Cras placerat eros ac sapien tincidunt vestibulum. Aenean vel efficitur quam, id placerat nibh. Nunc aliquam ultricies purus. Vestibulum congue, enim in rhoncus egestas, velit dolor rutrum libero, non hendrerit dolor urna nec eros. Aliquam auctor augue diam, eu sollicitudin lectus maximus vitae. Nunc tempor hendrerit aliquam.
+
+Donec porttitor et orci non malesuada. Nam ultrices sapien vel est blandit faucibus ut vel purus. Aliquam in eros est. Suspendisse tincidunt, lorem sed facilisis sagittis, orci nisl convallis ex, vitae ultrices quam ex id quam. Suspendisse est elit, dignissim a mattis a, dictum eleifend urna. Ut dapibus, enim at pharetra varius, elit augue consectetur enim, eu elementum erat lorem sed mauris. Sed metus nibh, dapibus id neque et, tempus congue massa.
+
+Etiam maximus feugiat velit id congue. Donec sollicitudin sagittis purus eleifend blandit. Curabitur nec ex at mi placerat cursus. Nulla vel sollicitudin arcu. Aliquam erat volutpat. Morbi convallis orci in arcu tristique rutrum eget vitae neque. Cras a cursus elit. Sed placerat est sapien.
+
+Quisque consequat convallis ligula. Sed vel est massa. Mauris consectetur leo felis. Vestibulum sagittis fermentum enim, quis consectetur enim. Suspendisse potenti. Praesent ut sapien ornare, scelerisque arcu id, dignissim purus. Maecenas cursus lorem at tempor tincidunt. Phasellus blandit tellus nec mi cursus, eget vestibulum odio dictum. In tincidunt, neque eu sodales tempor, nulla urna vehicula nunc, eget lacinia ante sem ut ligula. Duis tempus eros tellus. Sed non magna sapien. Maecenas porttitor magna eu tempus ornare. Curabitur eu felis hendrerit, finibus lectus et, mollis sem. Sed pulvinar lacinia ligula, id tincidunt ipsum cursus in. Vivamus iaculis ante id auctor scelerisque. Sed congue odio ac ante commodo mollis.
+
+Proin mauris dolor, ultricies sit amet metus in, commodo fermentum metus. Suspendisse hendrerit aliquam pulvinar. Phasellus quam elit, pretium in accumsan vel, egestas quis nibh. Aliquam urna erat, sagittis ac dolor convallis, imperdiet eleifend tellus. Ut sagittis sagittis nisi lacinia consectetur. In hac habitasse platea dictumst. Aliquam porttitor tristique diam id vulputate. Nullam rutrum ante eu est sodales dapibus. Pellentesque accumsan, metus nec rhoncus viverra, sem nunc varius elit, eu vehicula nisl massa id ex.
+
+Proin quis vestibulum eros, quis malesuada libero. Donec elementum purus sit amet malesuada laoreet. In interdum pharetra pulvinar. Proin commodo est dolor, et fringilla erat fermentum a. Ut dolor enim, mattis quis justo eu, dignissim scelerisque eros. Proin dignissim, arcu eget aliquet congue, quam libero viverra ex, eget lacinia augue nulla sit amet justo. Quisque augue nibh, volutpat id tincidunt vitae, sollicitudin non lacus. Pellentesque pellentesque, nulla at auctor bibendum, tortor turpis facilisis metus, vitae convallis ligula leo vitae odio. Duis eros lectus, lobortis non rhoncus sed, sagittis id lorem."/>
+            </ScrollView>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Button x:Name="btnAgree" Text="Agree" Clicked="Button_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10,10,10,10"/>
+        </StackLayout>
 
 </ContentPage>

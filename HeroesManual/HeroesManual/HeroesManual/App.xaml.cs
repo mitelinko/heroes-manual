@@ -13,7 +13,7 @@ namespace HeroesManual
 		{
 			InitializeComponent();
 
-			MainPage = new HeroesManual.MainPage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()
