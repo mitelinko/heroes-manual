@@ -111,6 +111,15 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\angledown.png" />
+    <BundleResource Include="Resources\book.png" />
+    <BundleResource Include="Resources\bubble.png" />
+    <BundleResource Include="Resources\hammer.png" />
+    <BundleResource Include="Resources\menu.png" />
+    <BundleResource Include="Resources\people.png" />
+    <BundleResource Include="Resources\phone.png" />
+    <BundleResource Include="Resources\plus.png" />
+    <BundleResource Include="Resources\star.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
