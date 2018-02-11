@@ -16,7 +16,6 @@ namespace HeroesManual
 		{
 			InitializeComponent();
 
-			
 		}
 
 		private async void ToolbarItem_Clicked(object sender, EventArgs e)
@@ -41,7 +40,7 @@ namespace HeroesManual
 
 		private async void btnScreenForDV_Clicked(object sender, EventArgs e)
 		{
-			
+			await Navigation.PushAsync(new ScreeningPage());
 		}
 	}
 }
