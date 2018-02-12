@@ -29,6 +29,13 @@
                 <Label Margin="25,0,10,0" Text= "▶ Do you feel safe in your relationship?"/>
 
 
+                <Label Margin="10,10,0,0" Text= "If they say yes:"  Font="Bold,16"/>
+                <Label Margin="25,0,10,0" Text= "▶ Every conversation is different. Don't blame the victim for not leaving. Keep them talking."/>
+                <Label Margin="25,0,10,0" Text= "▶ Be supportive."/>
+                <Label Margin="25,0,10,0" Text= "▶ Show empathy"/>
+                <Label Margin="25,0,10,0" Text= "▶ Ask follow-up questions to determine the severity of the situation"/>
+                <Label Margin="25,0,10,0" Text= "▶ Transition into giving them help → resources section"/>
+
 
             </StackLayout>
         </ScrollView>
