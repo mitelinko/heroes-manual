@@ -6,9 +6,31 @@
     
     <ContentPage.Content>
         <ScrollView>
-            <Grid>
-                <!--content here-->
-            </Grid>
+            <StackLayout>
+                <Label Margin="10,10,0,0" Text= "First Impressions"  Font="Bold,16"/>
+                <Label Margin="25,0,10,0" Text= "▶ Is there someone in the room who might be a perpetrator?"/>
+                <Label Margin="25,0,10,0" Text= "▶ Does the patient show signs of physical abuse?"/>
+                <Label Margin="40,0,10,0" Text= "▷ Black eyes"/>
+                <Label Margin="40,0,10,0" Text= "▷ Bruises around the neck"/>
+                <Label Margin="40,0,10,0" Text= "▷ Sprained wrists"/>
+
+
+                <Label Margin="10,10,0,0" Text= "During Routine Questions"  Font="Bold,16"/>
+                <Label Margin="25,0,10,0" Text= "▶ Do they look to their partner for permission/confirmation?"/>
+                <Label Margin="25,0,10,0" Text= "▶ Do they have low self esteem?"/>
+                <Label Margin="25,0,10,0" Text= "▶ Do they make excuses that don't match up like tripping or being clumsy to account for their injuries?"/>
+
+
+
+                <Label Margin="10,10,0,0" Text= "Confirmation Questions"  Font="Bold,16"/>
+                <Label Margin="25,0,10,0" Text= "▶ Remove any third party if possible before starting" Font="Bold"/>
+                <Label Margin="25,0,10,0" Text= "▶ Because difficult relationships can cause health problems, we are asking all of our patients the following question: Does a partner, or anyone at home, hurt, hit or threaten you?"/>
+                <Label Margin="25,0,10,0" Text= "▶ What about stress levels? How are things at work? At home?"/>
+                <Label Margin="25,0,10,0" Text= "▶ Do you feel safe in your relationship?"/>
+
+
+
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
