@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HeroesManual"
+             x:Class="HeroesManual.ProvideResourcesPage" 
+             Title="Provide Resources">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Text="Safety Plan" Image="plus.png" ContentLayout="Left,-15"  BackgroundColor="White" TextColor="#40806a" Font="Bold,20" BorderColor="Black" BorderWidth="1" BorderRadius="5" Margin="10" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked"/>
+    </Grid>
+
+</ContentPage>

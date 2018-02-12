@@ -30,7 +30,7 @@ namespace HeroesManual
 
 		private async void btnProvideResources_Clicked(object sender, EventArgs e)
 		{
-			
+			await Navigation.PushAsync(new ProvideResourcesPage());
 		}
 
 		private void btnLearn_Clicked(object sender, EventArgs e)

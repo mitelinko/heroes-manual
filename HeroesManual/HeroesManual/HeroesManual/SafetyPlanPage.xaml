@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeroesManual.SafetyPlanPage" 
+             Title="Safety Plan">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Label Margin="10,10,0,0" Text="What's a Safety Plan?" Font="Bold,16"/>
+
+                    <Label Margin="25,0,10,0" Text="A safety plan is a personalized practical plan that details ways to stay safe while in a relationship, planning to leave, or after leaving."/>
+                    <Label Margin="25,0,10,0" Text="Give this safety plan to the patient for them to fill out and keep safe."/>
+                    <Label Margin="25,0,10,0" Text="Don't directly text or email this to a patient to avoid potential HIPAA violations."/>
+                </StackLayout>
+
+                <Button Text="QR&#x0a;Code" Grid.Column="0" Grid.Row="1" BackgroundColor="White" TextColor="Black" Font="Bold,20" BorderColor="Black" BorderWidth="25" BorderRadius="5" Margin="10" Clicked="btnQRCode_Clicked"/>
+                <Button Text="Open&#x0a;PDF" Grid.Column="1" Grid.Row="1" BackgroundColor="White" TextColor="Black" Font="Bold,20" BorderColor="Black" BorderWidth="2" BorderRadius="5" Margin="10" Clicked="btnShareToPrint_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

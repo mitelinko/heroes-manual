@@ -9,31 +9,31 @@
                
                 <Label Margin="10,10,0,0" Text="Do's" Font="Bold,16"/>
                 
-                <Label Margin="25,0,10,0" Text= "▶ Allow the patient time to talk about their experiences"/>
+                <Label Margin="25,0,10,0" Text="▶ Allow the patient time to talk about their experiences"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Show empathy and concern"/>
-                <Label Margin="40,0,10,0" Text= "▷ Example: I’m sorry that happened to you"/>
-                <Label Margin="40,0,10,0" Text= "▷ Example: You do not deserve that. It is not your fault"/>
+                <Label Margin="25,0,10,0" Text="▶ Show empathy and concern"/>
+                <Label Margin="40,0,10,0" Text="▷ Example: I’m sorry that happened to you"/>
+                <Label Margin="40,0,10,0" Text="▷ Example: You do not deserve that. It is not your fault"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Use open-ended questions to encourage conversation"/>
+                <Label Margin="25,0,10,0" Text="▶ Use open-ended questions to encourage conversation"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Ask the questions slowly and leave space/time for the patient to answer fully"/>
-                <Label Margin="40,0,10,0" Text= "▷ Often times patients are asked a ton of questions during their visit, which can feel like a rapid-fire interrogation. Be sure to take screenings slow, letting the patient know you have the time to hear their concerns"/>
+                <Label Margin="25,0,10,0" Text="▶ Ask the questions slowly and leave space/time for the patient to answer fully"/>
+                <Label Margin="40,0,10,0" Text="▷ Often times patients are asked a ton of questions during their visit, which can feel like a rapid-fire interrogation. Be sure to take screenings slow, letting the patient know you have the time to hear their concerns"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Let the victim choose what they need from you"/>
+                <Label Margin="25,0,10,0" Text="▶ Let the victim choose what they need from you"/>
                 
                 <Label Margin="10,10,0,0" Text="Don't's" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text= "▶ Avoid questions like “Are you a victim of domestic violence?”"/>
-                <Label Margin="40,0,10,0" Text= "▷ Patients are less likely to disclose when asked a yes or no question"/>
-                <Label Margin="40,0,10,0" Text= "▷ Patients may not identify or want to associate themselves with the word “victim”"/>
+                <Label Margin="25,0,10,0" Text="▶ Don't ask questions like &quot;Are you a victim of domestic violence?&quot;"/>
+                <Label Margin="40,0,10,0" Text="▷ Patients are less likely to disclose when asked a yes or no question"/>
+                <Label Margin="40,0,10,0" Text="▷ Patients may not identify or want to associate themselves with the word &quot;victim&quot;"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Don’t tell the patient how to feel"/>
+                <Label Margin="25,0,10,0" Text="▶ Don’t tell the patient how to feel"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Don’t force your personal opinions on them"/>
+                <Label Margin="25,0,10,0" Text="▶ Don’t force your personal opinions on them"/>
                 
-                <Label Margin="25,0,10,0" Text= "▶ Don’t dominate the conversation"/>
+                <Label Margin="25,0,10,0" Text="▶ Don’t dominate the conversation"/>
 
-                <Label Margin="25,0,10,0" Text= "▶ Don’t offer to contact the perpetrator"/>
+                <Label Margin="25,0,10,20" Text="▶ Don’t offer to contact the perpetrator"/>
                 
                
             </StackLayout>

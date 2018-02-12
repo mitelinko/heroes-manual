@@ -17,8 +17,12 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ProfessionsPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)HealthcareHomePage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CommunicationTipsPage.xaml" />
-
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ProvideResourcesPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanQRCodePage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanPDFPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ScreeningPage.xaml" />
+
   </ItemGroup>
 
   <ItemGroup>
@@ -42,8 +46,22 @@
       <DependentUpon>CommunicationTipsPage.xaml</DependentUpon>
     </Compile>
 
+	<Compile Include="$(MSBuildThisFileDirectory)ProvideResourcesPage.xaml.cs">
+      <DependentUpon>ProvideResourcesPage.xaml</DependentUpon>
+    </Compile>
 
+    <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanPage.xaml.cs">
+      <DependentUpon>SafetyPlanPage.xaml</DependentUpon>
+    </Compile>
 
+    <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanQRCodePage.xaml.cs">
+      <DependentUpon>SafetyPlanQRCodePage.xaml</DependentUpon>
+    </Compile>
+
+    <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanPDFPage.xaml.cs">
+      <DependentUpon>SafetyPlanPDFPage.xaml</DependentUpon>
+    </Compile>
+    
     <Compile Include="$(MSBuildThisFileDirectory)ScreeningPage.xaml.cs">
       <DependentUpon>ScreeningPage.xaml</DependentUpon>
     </Compile>
