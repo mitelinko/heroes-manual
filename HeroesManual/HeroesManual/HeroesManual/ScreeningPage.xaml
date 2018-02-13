@@ -88,17 +88,37 @@
                     <Label Margin="25,0,10,0" Text= "&#x2022;"/>
                     <Label Text= "Every conversation is different. Don't blame the victim for not leaving. Keep them talking."/>
                 </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "&quot;Thank you for telling me - I know it was difficult to do.&quot;"/>
+                    </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Label Margin="25,0,10,0" Text= "&#x2022;"/>
                     <Label Text= "Be supportive."/>
                 </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Text= "&quot;It's not your fault. You are not to blame.&quot;"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Text= "&quot;There are people that can help you.&quot;"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Text= "&quot;Do you have family or friends that can help you?&quot;"/>
+                    </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Label Margin="25,0,10,0" Text= "&#x2022;"/>
                     <Label Text= "Show empathy."/>
                 </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "&quot;I believe you.&quot;"/>
+                    </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
-                    <Label Text= "Ask follow-up questions to determine the severity of the situation"/>
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "&quot;I understand how difficult it is to change this situation. It may take some time to figure out what to do.&quot;"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Label Margin="25,0,10,0" Text= "&#x2022;"/>
