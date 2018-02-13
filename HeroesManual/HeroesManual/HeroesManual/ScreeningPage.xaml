@@ -7,40 +7,103 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                
                 <Label Margin="10,10,0,0" Text= "First Impressions"  Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text= "▶ Is there someone in the room who might be a perpetrator?"/>
-                <Label Margin="25,0,10,0" Text= "▶ Reason for visit: injusry, physical complaint, etc"/>
-                <Label Margin="25,0,10,0" Text= "▶ Does the patient show signs of physical abuse?"/>
-                <Label Margin="40,0,10,0" Text= "▷ Black eyes"/>
-                <Label Margin="40,0,10,0" Text= "▷ Bruises around the neck"/>
-                <Label Margin="40,0,10,0" Text= "▷ Sprained wrists"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Is there someone in the room who might be a perpetrator?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Reason for visit: injusry, physical complaint, etc"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Does the patient show signs of physical abuse?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "Black eyes"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "Bruises around the neck"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "Sprained wrists"/>
+                </StackLayout>
+                
 
 
                 <Label Margin="10,10,0,0" Text= "During Routine Questions"  Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text= "▶ Do they look to their partner for permission/confirmation?"/>
-                <Label Margin="25,0,10,0" Text= "▶ Do they have low self esteem? Do they show signs of "/>
-                <Label Margin="25,0,10,0" Text= "▶ Do they make excuses that don't match up like tripping or being clumsy to account for their injuries?"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Do they look to their partner for permission/confirmation?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Do they have low self esteem? Do they show signs of self-neglect?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= " Do they make excuses that don't match up like tripping or being clumsy to account for their injuries?"/>
+                </StackLayout>
 
 
 
                 <Label Margin="10,10,0,0" Text= "Confirmation Questions"  Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text= "▶ Remove any third party if possible before starting" Font="Bold"/>
-                <Label Margin="40,0,10,0" Text= "▷ &quot;Ma'am/Sir, would you mind stepping outside for just a second? I have a few confidential questions I'd like to ask [patient name].&quot;"/>
-                <Label Margin="25,0,10,0" Text= "▶ &quot;Do you have lots of stress in your life?&quot;"/>
-                <Label Margin="25,0,10,0" Text= "▶ &quot;How are things at home?&quot;"/>
-                <Label Margin="25,0,10,0" Text= "▶ &quot;How are things at work?&quot;"/>
-                <Label Margin="25,0,10,0" Text= "▶ &quot;Because difficult relationships can cause health problems, we are asking all of our patients the following question: Does a partner, or anyone at home, hurt, hit or threaten you?&quot;"/>
-                <Label Margin="25,0,10,0" Text= "▶ &quot;Do you feel safe in your relationship?&quot;"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Remove any third party if possible before starting" Font="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "&quot;Ma'am/Sir, would you mind stepping outside for just a second? I have a few confidential questions I'd like to ask [patient name].&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "&quot;Do you have lots of stress in your life?&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "&quot;How are things at home?&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "&quot;How are things at work?&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "&quot;Because difficult relationships can cause health problems, we are asking all of our patients the following question: Does a partner, or anyone at home, hurt, hit or threaten you?&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="50,0,10,0" Text= "-"/>
+                    <Label Text= "&quot;Do you feel safe in your relationship?&quot;"/>
+                </StackLayout>
 
 
                 <Label Margin="10,10,0,0" Text= "If they say yes:"  Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text= "▶ Every conversation is different. Don't blame the victim for not leaving. Keep them talking."/>
-                <Label Margin="25,0,10,0" Text= "▶ Be supportive."/>
-                <Label Margin="25,0,10,0" Text= "▶ Show empathy"/>
-                <Label Margin="25,0,10,0" Text= "▶ Ask follow-up questions to determine the severity of the situation"/>
-                <Label Margin="25,0,10,0" Text= "▶ Transition into giving them help → resources section"/>
-
-
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Every conversation is different. Don't blame the victim for not leaving. Keep them talking."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Be supportive."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Show empathy."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Ask follow-up questions to determine the severity of the situation"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Text= "Discuss, review, and stress the importance of the safety plan with the patient."/>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
