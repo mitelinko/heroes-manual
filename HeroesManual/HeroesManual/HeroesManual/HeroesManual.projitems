@@ -70,6 +70,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml.cs">
       <DependentUpon>HealthcareLearnPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralInfoPage.xaml.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GeneralInfoPage.xaml" />
+  </ItemGroup>
 </Project>

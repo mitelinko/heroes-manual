@@ -14,7 +14,7 @@ namespace HeroesManual
 
         private async void btnGeneralInfo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CommunicationTipsPage());
+            await Navigation.PushAsync(new GeneralInfoPage());
         }
 
         private async void btnVictimInfo_Clicked(object sender, EventArgs e)
