@@ -26,6 +26,7 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)GeneralInfoPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)VictimInfoPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PerpInfoPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -77,6 +78,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)VictimInfoPage.xaml.cs">
       <DependentUpon>VictimInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)PerpInfoPage.xaml.cs">
+      <DependentUpon>PerpInfoPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
