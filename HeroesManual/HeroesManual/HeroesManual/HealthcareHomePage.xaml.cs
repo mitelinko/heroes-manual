@@ -33,9 +33,10 @@ namespace HeroesManual
 			await Navigation.PushAsync(new ProvideResourcesPage());
 		}
 
-		private void btnLearn_Clicked(object sender, EventArgs e)
+        private async void btnLearn_Clicked(object sender, EventArgs e)
 		{
-
+            //place holder
+            await Navigation.PushAsync(new GeneralInfoPage());
 		}
 
 		private async void btnScreenForDV_Clicked(object sender, EventArgs e)
