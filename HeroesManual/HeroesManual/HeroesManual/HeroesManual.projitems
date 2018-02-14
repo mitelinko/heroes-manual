@@ -23,6 +23,7 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanPDFPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ScreeningPage.xaml" />
 
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -66,6 +67,9 @@
       <DependentUpon>ScreeningPage.xaml</DependentUpon>
     </Compile>
 
+    <Compile Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml.cs">
+      <DependentUpon>HealthcareLearnPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>
