@@ -7,7 +7,101 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-               <Label Margin="10,10,0,0" Text= "Victim Info Page placeholder"  Font="Bold,16"/>
+
+                
+               <Label Margin="10,10,0,0" Text= "Victims often feel trapped and unable to leave for several reasons:"  Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Emotional Reasons"/>
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "belief that the abusive partner will change because of his remorse and promises to stop battering"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "fear of the abuser who threatens to kill the victim if abuse is reported to anyone"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "lack of emotional support"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "guilt over the failure of the relationship"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "attachment to the partner"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "fear of making major life changes"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "feeling responsible for the abuse"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "feeling helpless, hopeless and trapped"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "belief that she is the only one who can help the abuser with his problems"/>
+                    </StackLayout>
+
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Situational Reasons"/>
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "economic dependence on the abuser"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "fear of physical harm to self or children"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "fear of emotional damage to the children over the loss of a parent, even if that parent is abusive"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "fear of losing custody of the children because the abuser threatens to take the children if victim tries to leave"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "lack of job skills"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "social isolation and lack of support because abuser is often the victim’s only support system"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "lack of information regarding domestic violence resources"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "belief that law enforcement will not take her seriously"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "lack of alternative housing"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "cultural or religious constraints"/>
+                    </StackLayout>
+                
+                 <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "http://www.domesticviolenceroundtable.org/abuse-victims-stay.html"/>
+                </StackLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

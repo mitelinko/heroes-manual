@@ -7,7 +7,103 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-               <Label Margin="10,10,0,0" Text= "Perpetrator Info Page placeholder"  Font="Bold,16"/>
+
+            <Label Margin="10,10,0,0" Text= "What do they do?"  Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Emotional/Verbal/Psychological: put-downs, humiliation, gaslighting"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Financial: uses money to keep the victim from leaving"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Sexual: any unwanted touching, forcing/demanding sex"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Physical: hitting, slapping, grabbing, hair pulling, strangulation, etc"/>
+                </StackLayout>
+
+                
+                <Label Margin="10,10,0,0" Text= "Why do they do it?"  Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Abuse is often a learned behavior in the formative years of the perpetrator"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Perpetrators rationalize their actions by putting the blame on an external influence like the victim or alcohol/drugs"/>
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "They often think of themselves as the victim of the relationship"/>
+                    </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "They always want control of the victim, and it does not matter if the victim is hurt in the process of obtaining that control"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Drugs and alcohol do not cause the violence, but can lower the inhibitions of perpetrators"/>
+                </StackLayout>
+
+                
+                <Label Margin="10,10,0,0" Text= "When do they do it?"  Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Perpetrators typically start with emotional or verbal abuse then escalate into physical abuse"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "The abuse usually occurs in a 3 phase cycle"/>
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Tension Building: the relationship between the abuser and victim is tense, abuser can easily be set off by a variety of factors"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Outburst: abuser outbursts with some form of abuse, attempting to dominate their partner"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Reconciliation: abuser often apologizes and often shows an abnormal amount of affection"/>
+                    </StackLayout>
+
+                
+                <Label Margin="10,10,0,0" Text= "Can they change?"  Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Abuse is a learned behavior that can be changed, but only a small percentage of perpetrators truly do change"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Batterer intervention programs are one of the more effective ways for changing perpetrators, but they need to actually want to change"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Margin="25,0,10,0" Text= "&#x2022;"/>
+                    <Label Margin="0,0,10,0" Text= "Signs of change include:"/>
+                </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Fully admitting to what they have done and taking responsibility"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Stopping excuses and blaming"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Identifying patterns of controlling behavior"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Margin="50,0,10,0" Text= "-"/>
+                        <Label Margin="0,0,10,0" Text= "Accepting that changing is a long process"/>
+                    </StackLayout>
+
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

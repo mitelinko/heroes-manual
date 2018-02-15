@@ -19,12 +19,12 @@ namespace HeroesManual
 
         private async void btnVictimInfo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ProvideResourcesPage());
+            await Navigation.PushAsync(new VictimInfoPage());
         }
 
         private async void btnPerpInfo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new HealthcareLearnPage());
+            await Navigation.PushAsync(new PerpInfoPage());
         }
     }
 }
