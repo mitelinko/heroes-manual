@@ -13,7 +13,7 @@
         
         <Button x:Name="btnGeneralInfo"
             Text="General Information"
-            Image="Icons_General Info.png"
+            Image="Icons_GeneralInfo.png"
             Clicked="btnGeneralInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"

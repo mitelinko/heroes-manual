@@ -68,9 +68,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable\Icons_General Info.png" />
+    <AndroidResource Include="Resources\drawable\Icons_GeneralInfo.png" />
     <AndroidResource Include="Resources\drawable\Icons_Perp.png" />
-    <AndroidResource Include="Resources\drawable\Icons_Safety Plan.png" />
+    <AndroidResource Include="Resources\drawable\Icons_SafetyPlan.png" />
     <AndroidResource Include="Resources\drawable\Icons_Victim.png" />
   </ItemGroup>
   <ItemGroup>
