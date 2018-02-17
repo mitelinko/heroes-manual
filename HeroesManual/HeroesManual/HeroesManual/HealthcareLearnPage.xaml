@@ -13,7 +13,7 @@
         
         <Button x:Name="btnGeneralInfo"
             Text="General Information"
-            Image="menu.png"
+            Image="Icons_General Info.png"
             Clicked="btnGeneralInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"
@@ -28,7 +28,7 @@
         
         <Button x:Name="btnVictimInfo"
             Text="What It's Like to Be a Victim"
-            Image="menu.png"
+            Image="Icons_Victim.png"
             Clicked="btnVictimInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"
@@ -42,7 +42,7 @@
         
         <Button x:Name="btnPerpInfo"
             Text="What It's Like to Be a Perpetrator"
-            Image="menu.png" 
+            Image="Icons_Perp.png" 
             Clicked="btnPerpInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"

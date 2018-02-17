@@ -120,6 +120,10 @@
     <BundleResource Include="Resources\phone.png" />
     <BundleResource Include="Resources\plus.png" />
     <BundleResource Include="Resources\star.png" />
+    <BundleResource Include="Resources\Icons_General Info.png" />
+    <BundleResource Include="Resources\Icons_Perp.png" />
+    <BundleResource Include="Resources\Icons_Safety Plan.png" />
+    <BundleResource Include="Resources\Icons_Victim.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

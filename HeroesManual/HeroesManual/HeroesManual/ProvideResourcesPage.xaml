@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HeroesManual"
@@ -11,7 +11,19 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button Text="Safety Plan" Image="plus.png" ContentLayout="Left,-15"  BackgroundColor="White" TextColor="#40806a" Font="Bold,20" BorderColor="Black" BorderWidth="1" BorderRadius="5" Margin="10" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked"/>
+        <Button Text="Safety Plan"
+            Image="plus.png"
+            ContentLayout="Left" 
+            BackgroundColor="White"
+            TextColor="#40806a"
+            Font="Bold,20"
+            BorderColor="Black"
+            BorderWidth="1"
+            BorderRadius="5"
+            Margin="10"
+            Grid.Row="0"
+            Grid.Column="0"
+            Clicked="Button_Clicked"/>
     </Grid>
 
 </ContentPage>
