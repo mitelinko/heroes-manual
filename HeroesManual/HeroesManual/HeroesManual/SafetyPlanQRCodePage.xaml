@@ -4,6 +4,6 @@
              x:Class="HeroesManual.SafetyPlanQRCodePage" 
              Title="Safety Plan QR Code">
 
-    <Image Source="SafetyPlanQRCode.png" Margin="10"/>
+    <Image Source="RealSafetyPlanQRCode.jpg" Margin="10"/>
 
 </ContentPage>

@@ -12,7 +12,7 @@
         </Grid.RowDefinitions>
 
         <Button Text="Safety Plan"
-            Image="Icons_SafetyPlan.png"
+            Image="Icons_SafetyPlan_64.png"
             ContentLayout="Left" 
             BackgroundColor="White"
             TextColor="#40806a"
