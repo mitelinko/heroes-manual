@@ -26,5 +26,20 @@ namespace HeroesManual
         {
             await Navigation.PushAsync(new PerpInfoPage());
         }
+
+        private async void safetyPlanButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SafetyPlanResourcesPage());
+        }
+
+        private async void communicationResourcesButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CommunicationResourcesPage());
+        }
+
+        private async void screeningResourcesButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ScreeningResourcesPage());
+        }
     }
 }

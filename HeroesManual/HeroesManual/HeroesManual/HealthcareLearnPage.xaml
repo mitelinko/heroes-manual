@@ -5,15 +5,9 @@
     Title="Learn More">
 
     <Grid >
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        
+     
         <Button x:Name="btnGeneralInfo"
             Text="General Information"
-            Image="Icons_GeneralInfo.png"
             Clicked="btnGeneralInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"
@@ -22,13 +16,12 @@
             BorderColor="Black"
             BorderWidth="1"
             BorderRadius="5"
-            Margin="10,10,10,0"
+            Margin="10"
             Grid.Row="0"
             Grid.Column="0" />
         
         <Button x:Name="btnVictimInfo"
             Text="What It's Like to Be a Victim"
-            Image="Icons_Victim.png"
             Clicked="btnVictimInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"
@@ -37,12 +30,11 @@
             BorderColor="Black"
             BorderWidth="1"
             BorderRadius="5"
-            Margin="10,0,10,0"
+            Margin="10"
             Grid.Row="1"/>
         
         <Button x:Name="btnPerpInfo"
             Text="What It's Like to Be a Perpetrator"
-            Image="Icons_Perp.png" 
             Clicked="btnPerpInfo_Clicked"
             ContentLayout="Top,-15" 
             BackgroundColor="White"
@@ -51,8 +43,47 @@
             BorderColor="Black"
             BorderWidth="1"
             BorderRadius="5"
-            Margin="10,0,10,10"
+            Margin="10"
             Grid.Row="2"/>
+        
+        <Button Text="Safety Plan"
+            ContentLayout="Left" 
+            BackgroundColor="White"
+            TextColor="#40806a"
+            Font="Bold,20"
+            BorderColor="Black"
+            BorderWidth="1"
+            BorderRadius="5"
+            Margin="10"
+            Grid.Row="3"
+            Grid.Column="0"
+            Clicked="safetyPlanButton_Clicked"/>
+        
+        <Button Text="Communication Resources"
+            ContentLayout="Left" 
+            BackgroundColor="White"
+            TextColor="#40806a"
+            Font="Bold,20"
+            BorderColor="Black"
+            BorderWidth="1"
+            BorderRadius="5"
+            Margin="10"
+            Grid.Row="4"
+            Grid.Column="0"
+            Clicked="communicationResourcesButton_Clicked"/>
+        
+        <Button Text="Screening Resources"
+            ContentLayout="Left" 
+            BackgroundColor="White"
+            TextColor="#40806a"
+            Font="Bold,20"
+            BorderColor="Black"
+            BorderWidth="1"
+            BorderRadius="5"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"
+            Clicked="screeningResourcesButton_Clicked"/>
     </Grid>
     
 </ContentPage>

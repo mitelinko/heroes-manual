@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesManual.iOS", "HeroesM
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HeroesManual", "HeroesManual\HeroesManual\HeroesManual.shproj", "{586597E2-FA7F-4E3B-8A5D-F5EB2BCDB90C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E3966F4-C044-495F-9552-7076781CCA31}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		HeroesManual\HeroesManual\HeroesManual.projitems*{49f82d41-4060-4e6b-bcbc-c385f2461da7}*SharedItemsImports = 4

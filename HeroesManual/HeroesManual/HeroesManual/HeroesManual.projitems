@@ -27,6 +27,9 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)GeneralInfoPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)VictimInfoPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)PerpInfoPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CommunicationResourcesPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanResourcesPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ScreeningResourcesPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -81,6 +84,15 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)PerpInfoPage.xaml.cs">
       <DependentUpon>PerpInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CommunicationResourcesPage.xaml.cs">
+      <DependentUpon>CommunicationResourcesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanResourcesPage.xaml.cs">
+      <DependentUpon>SafetyPlanResourcesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ScreeningResourcesPage.xaml.cs">
+      <DependentUpon>ScreeningResourcesPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
