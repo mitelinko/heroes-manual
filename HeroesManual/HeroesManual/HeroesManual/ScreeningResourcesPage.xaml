@@ -7,33 +7,283 @@
         <ScrollView>
             <StackLayout>
                
-                <Label Margin="10,10,0,0" Text="Do's" Font="Bold,16"/>
-                 
-                <Label Margin="25,0,10,0" Text="▶ Allow the patient time to talk about their experiences"/>
+                <Label Margin="10,10,0,0" Text="Why screen?" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Helps patient understand that abuse is wrong and abuse is not normal"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Shows your willingness to discuss abuse, even if the patient is not ready to today"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Great opportunity to educate the patient on their options"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Can help improve the lives of their children at home"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Helps end the cycle of abuse in the family"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Why are healthcare settings good places to do screenings?" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Privacy and confidentiality"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Trust developed with healthcare provider"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Access to multiple services that might be needed"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Visiting a healthcare provider isn’t a change in routine"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Top reasons a patient accepts intervention:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Concern for children"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Fear for their safety"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Clinician said their home situation could be affecting their health"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Things to observe:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Does the patient’s explanation fit the injury?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Did the patient delay seeking treatment?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has the patient had multiple recent ER visits?"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Suggestive physical signs:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Bruises"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Defensive injuries on forearms"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Unexplained injuries"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Rectal/genital injuries"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Burns, welts"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Bite marks"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Fractures, dislocations"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Injury during pregnancy"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Contusions to head, neck, or chest"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Suggestive behaviors during pelvic exam::" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Reluctant to remove clothing"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Avoiding eye contact, fearful of eye contact"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Unexplained crying"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Exaggerated startle response to touch"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Increased muscle tension"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Tips for doing routine exam:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Maintain eye contact"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Give patient control/options"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Ask permission and let patient know exactly what you’re doing next"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Explain each step and encourage questions"/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Things to ask:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Depending on how comfortable the patient is answering, use either indirect, framing, or direct statements/questions"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Indirect:"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How are things going at home?"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Show empathy and concern"/>
-                <Label Margin="40,0,10,0" Text="▷ Example: I’m sorry that happened to you"/>
-                <Label Margin="40,0,10,0" Text="▷ Example: You do not deserve that. It is not your fault"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How do you feel about the relationships in your life?"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Use open-ended questions to encourage conversation"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How are your stress levels? At work? At home?"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Ask the questions slowly and leave space/time for the patient to answer fully"/>
-                <Label Margin="40,0,10,0" Text="▷ Often times patients are asked a ton of questions during their visit, which can feel like a rapid-fire interrogation. Be sure to take screenings slow, letting the patient know you have the time to hear their concerns"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How does your partner treat you?"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Let the victim choose what they need from you"/>
-                
-                <Label Margin="10,10,0,0" Text="Don't's" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Don't ask questions like &quot;Are you a victim of domestic violence?&quot;"/>
-                <Label Margin="40,0,10,0" Text="▷ Patients are less likely to disclose when asked a yes or no question"/>
-                <Label Margin="40,0,10,0" Text="▷ Patients may not identify or want to associate themselves with the word &quot;victim&quot;"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Are you having any problems with your partner?"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Don’t tell the patient how to feel"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Framing:"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Because domestic violence has so many effects on health, I now ask all of my patients about it"/>
 
-                <Label Margin="25,0,10,0" Text="▶ Don’t force your personal opinions on them"/>
-                
-                <Label Margin="25,0,10,0" Text="▶ Don’t dominate the conversation"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Violence affects many families. Violence in the home may result in physical and emotional problems for you and your child. We are offering services to anyone who may be concerned about violence in their homes"/>
 
-                <Label Margin="25,0,10,20" Text="▶ Don’t offer to contact the perpetrator"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Because difficult relationships can cause health problems, we are asking all of our patients the following question: Does a partner, or anyone at home, hurt, hit, or threaten you?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Direct:"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Are you afraid of your partner?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Do you feel you are in danger?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Has anyone at home ever hit you or tried to injure you in any way?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Has anyone close to you ever threatened or hurt you?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Does your partner ever try to control you by threatening to hurt you or your family?"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="Do you ever feel controlled or isolated by your partner?"/>
+
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Things to say:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Thank you for telling me. I know it was difficult to do."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="I believe you."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="You are not alone."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="I’m very glad you told me. I care. I’m concerned about the health and safety of you and your children."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="I’m sorry you have been hurt."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="I understand how difficult it is to change this situation. It may take some time to figure out what to do."/>
+                </StackLayout>
+                <Label Margin="10,10,0,0" Text="Avoid Saying:" Font="Bold,16"/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="What did you do to make him hit you?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="If it were me, I wouldn’t put up with this."/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Why don’t you just leave?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Why would you stay with someone like that?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Why did you wait so long to say something?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Have you tried marriage counseling?"/>
+                </StackLayout>
+
                 
                
             </StackLayout>

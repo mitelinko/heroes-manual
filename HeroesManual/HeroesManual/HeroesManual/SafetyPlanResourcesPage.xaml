@@ -8,71 +8,242 @@
             <StackLayout>
                
                 <Label Margin="10,10,0,0" Text="Safety Plan" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Way to be better prepared for the next episode of violence"/>
-                <Label Margin="25,0,10,0" Text="▶ A personalized, practical plan designed to prevent injury"/>
-                <Label Margin="25,0,10,0" Text="▶ An advance safety plan is important (1) because the patient may not think clearly in stressful situations due to adrenaline, (2) may not have the time to gather needed items when escaping, and (3) a support system may not have been identified"/>
-                <Label Margin="25,0,10,0" Text="▶ Includes:"/>
-                <Label Margin="40,0,10,0" Text="▷ How to stay safe and protect children while living with the abuser"/>
-                <Label Margin="40,0,10,0" Text="▷ How to cope with emotions"/>
-                <Label Margin="40,0,10,0" Text="▷ How to leave a relationship safely"/>
-                <Label Margin="40,0,10,0" Text="▷ How to remain safe after leaving"/>
-                
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Way to be better prepared for the next episode of violence"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="A personalized, practical plan designed to prevent injury"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="An advance safety plan is important (1) because the patient may not think clearly in stressful situations due to adrenaline, (2) may not have the time to gather needed items when escaping, and (3) a support system may not have been identified"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Includes:"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How to stay safe and protect children while living with the abuser"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How to cope with emotions"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How to leave a relationship safely"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="50,0,10,0" Text="-"/>
+                <Label Margin="0,0,10,0" Text="How to remain safe after leaving"/>
+
+                </StackLayout>
                 <Label Margin="10,10,0,0" Text="Assist Patient in Developing a Safety Plan" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Provide a Safety Plan Form in a way to protect the patient’s safety, for example, keeping the Plan away from the abuser"/>
-                <Label Margin="25,0,10,0" Text="▶ Discuss the reason for and importance of a Safety Plan"/>
-                <Label Margin="25,0,10,0" Text="▶ Discuss each item of the Safety Plan with patient for completeness"/>
-                <Label Margin="25,0,10,0" Text="▶ Answer any questions"/>
-                <Label Margin="25,0,10,0" Text="▶ Discuss key ways to avoid abuser tracking patient’s actions, for example, taking the Plan home, gathering items that abuser will miss, or telling abuser &quot;next time I will go to my mother’s&quot;"/>
-                <Label Margin="25,0,10,0" Text="▶ Respect the patient’s decisions"/>
-                
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Provide a Safety Plan Form in a way to protect the patient’s safety, for example, keeping the Plan away from the abuser"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Discuss the reason for and importance of a Safety Plan"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Discuss each item of the Safety Plan with patient for completeness"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Answer any questions"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Discuss key ways to avoid abuser tracking patient’s actions, for example, taking the Plan home, gathering items that abuser will miss, or telling abuser “next time I will go to my mother’s”"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Respect the patient’s decisions"/>
+                </StackLayout>
                 <Label Margin="10,10,0,0" Text="Assessing Safety Questions" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Where is your partner now?"/>
-                <Label Margin="25,0,10,0" Text="▶ How safe do you feel returning home today?"/>
-                <Label Margin="25,0,10,0" Text="▶ Do you have a plan for when you don’t feel safe?"/>
-                <Label Margin="25,0,10,0" Text="▶ Has the violence been getting worse, more often, or scarier lately?"/>
-                <Label Margin="25,0,10,0" Text="▶ Has your partner ever choked you, or injured you while you were pregnant?"/>
-                <Label Margin="25,0,10,0" Text="▶ Has your partner ever injured someone outside the home?"/>
-                <Label Margin="25,0,10,0" Text="▶ Has your partner ever injured a pet or destroyed items you cared about?"/>
-                <Label Margin="25,0,10,0" Text="▶ Does your partner have an alcohol or drug abuse problem?"/>
-                <Label Margin="25,0,10,0" Text="▶ Is there a gun in the house?"/>
-                <Label Margin="25,0,10,0" Text="▶ Are the children in danger?"/>
-                <Label Margin="25,0,10,0" Text="▶ Does your partner know you are planning to leave?"/>
-                <Label Margin="25,0,10,0" Text="▶ Has your partner threatened to kill you/him/herself?"/>
-                <Label Margin="25,0,10,0" Text="▶ Increase safety at home"/>
-                <Label Margin="25,0,10,0" Text="▶ Avoid kitchen and bathroom, since the bathroom is a small, enclosed space and the kitchen has many dangerous elements they could be used as weapons"/>
-                <Label Margin="25,0,10,0" Text="▶ Remove gun/weapons from home if possible"/>
-                <Label Margin="25,0,10,0" Text="▶ Put a phone in a room you can lock"/>
-                <Label Margin="25,0,10,0" Text="▶ Plan an escape route"/>
-                <Label Margin="25,0,10,0" Text="▶ Make a signal with neighbors to call the police"/>
-                
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Where is your partner now?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="How safe do you feel returning home today?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Do you have a plan for when you don’t feel safe?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has the violence been getting worse, more often, or scarier lately?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has your partner ever choked you, or injured you while you were pregnant?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has your partner ever injured someone outside the home?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has your partner ever injured a pet or destroyed items you cared about?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Does your partner have an alcohol or drug abuse problem?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Is there a gun in the house?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Are the children in danger?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Does your partner know you are planning to leave?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Has your partner threatened to kill you/him/herself?"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Increase safety at home"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Avoid kitchen and bathroom, since the bathroom is a small, enclosed space and the kitchen has many dangerous elements they could be used as weapons"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Remove gun/weapons from home if possible"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Put a phone in a room you can lock"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Plan an escape route"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Make a signal with neighbors to call the police"/>
+                </StackLayout>
                 <Label Margin="10,10,0,0" Text="Increase children’s safety" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Teach them to call 911 and know their address and phone number"/>
-                <Label Margin="25,0,10,0" Text="▶ Make a code word with them to call 911"/>
-                <Label Margin="25,0,10,0" Text="▶ Plan an escape route"/>
-                <Label Margin="25,0,10,0" Text="▶ Consider where the abuser is likely to think you will go (example: mother’s home) and plan accordingly"/>
-                <Label Margin="25,0,10,0" Text="▶ Teach them not to get in the middle of a fight"/>
-                
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Teach them to call 911 and know their address and phone number"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Make a code word with them to call 911"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Plan an escape route"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Consider where the abuser is likely to think you will go (example: mother’s home) and plan accordingly"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Teach them not to get in the middle of a fight"/>
+                </StackLayout>
                 <Label Margin="10,10,0,0" Text="Pack an escape bag for you and children and leave with a friend" Font="Bold,16"/>
-                <Label Margin="25,0,10,0" Text="▶ Clothes"/>
-                <Label Margin="25,0,10,0" Text="▶ Money"/>
-                <Label Margin="25,0,10,0" Text="▶ Cash, credit and ATM cards"/>
-                <Label Margin="25,0,10,0" Text="▶ Change for pay phones"/>
-                <Label Margin="25,0,10,0" Text="▶ Checkbook, bank account #s"/>
-                <Label Margin="25,0,10,0" Text="▶ Pay stub"/>
-                <Label Margin="25,0,10,0" Text="▶ Keys (house, car, office, safety deposit box)"/>
-                <Label Margin="25,0,10,0" Text="▶ Medications/glasses"/>
-                <Label Margin="25,0,10,0" Text="▶ Phone, phone calling card, address book, hotline numbers"/>
-                <Label Margin="25,0,10,0" Text="▶ Toiletries, diapers"/>
-                <Label Margin="25,0,10,0" Text="▶ Pictures, keepsakes, toys, books"/>
-                <Label Margin="25,0,10,0" Text="▶ Copies of identification and important papers"/>
-                <Label Margin="25,0,10,0" Text="▶ Birth certificates, passports, social security card, immigration ID papers"/>
-                <Label Margin="25,0,10,0" Text="▶ Driver’s license"/>
-                <Label Margin="25,0,10,0" Text="▶ Marriage/divorce/custody papers/restraining orders"/>
-                <Label Margin="25,0,10,0" Text="▶ Titles, deeds, car registration"/>
-                <Label Margin="25,0,10,0" Text="▶ Health insurance cards/important medical records"/>
-                <Label Margin="25,0,10,0" Text="▶ School records/immunization (shot) records"/>
-                <Label Margin="25,0,10,0" Text="▶ Journal/photos of abuse"/>
-                <Label Margin="25,0,10,0" Text="▶ Photos of abuser to give to school, office security, etc."/>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Clothes"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Money"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Cash, credit and ATM cards"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Change for pay phones"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Checkbook, bank account #s"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Pay stub"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Keys (house, car, office, safety deposit box)"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Medications/glasses"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Phone, phone calling card, address book, hotline numbers"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Toiletries, diapers"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Pictures, keepsakes, toys, books"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Copies of identification and important papers"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Birth certificates, passports, social security card., immigration ID papers"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Driver’s license"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Marriage/divorce/custody papers/restraining orders"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Titles, deeds, car registration"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Health insurance cards/important medical records"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="School records/immunization (shot) records"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Journal/photos of abuse"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Margin="25,0,10,0" Text="&#x2022;"/>
+                <Label Margin="0,0,10,0" Text="Photos of abuser to give to school, office security, etc."/>
+                </StackLayout>
+
 
                 
                
