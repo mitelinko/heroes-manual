@@ -32,9 +32,19 @@
 	<string>Heroes Manual</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>NSContactsUsageDescription</key>
+	<string>contacts usage</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>calendars usage</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>microhpone usage</string>
+	<key>NSSiriUsageDescription</key>
+	<string>siri usage</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>media library usage</string>
 </dict>
 </plist>
