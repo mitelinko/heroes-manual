@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HealthcareHomeViewController: UIViewController {
+class HealthcareHomeViewController: GeneralMenuController {
     
     let SimbaGreen = UIColor(red: 36/255, green: 185/255, blue: 102/255, alpha: 1.0)
     let SimbaPurple = UIColor(red: 59/255, green: 2/255, blue: 96/255, alpha: 1.0)
@@ -20,6 +20,14 @@ class HealthcareHomeViewController: UIViewController {
     @IBOutlet weak var learnButton: UIButton!
     
     // MARK: Actions
+    
+    @IBAction func screenForDVButtonPressed(_ sender: UIButton) {
+        pushContentPage(page: CONTENT_PAGES.screeningContent)
+    }
+    
+    @IBAction func whatToSayButtonPressed(_ sender: UIButton) {
+        pushContentPage(page: CONTENT_PAGES.fillerContent)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

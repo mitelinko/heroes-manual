@@ -8,7 +8,7 @@
 
 import UIKit
 
-class IndustrySelectViewController: UIViewController {
+class IndustrySelectViewController: GeneralMenuController {
     
     let SimbaGreen = UIColor(red: 36/255, green: 185/255, blue: 102/255, alpha: 1.0)
     let SimbaPurple = UIColor(red: 59/255, green: 2/255, blue: 96/255, alpha: 1.0)
