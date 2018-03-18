@@ -63,7 +63,7 @@ class IndustrySelectViewController: GeneralMenuController {
     }
     
     func applyButtonStyle(btn: UIButton) -> Void {
-        btn.layer.shadowRadius = 5
+        btn.layer.cornerRadius = 10
         btn.layer.borderColor = UIColor.lightGray.cgColor
         setButtonShadow(btn: btn, color: UIColor.lightGray.cgColor)
     }

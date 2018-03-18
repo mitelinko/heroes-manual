@@ -25,8 +25,16 @@ class HealthcareHomeViewController: GeneralMenuController {
         pushContentPage(page: CONTENT_PAGES.screeningContent)
     }
     
+    @IBAction func provideResourcesButtonPressed(_ sender: UIButton) {
+        
+    }
+    
     @IBAction func whatToSayButtonPressed(_ sender: UIButton) {
-        pushContentPage(page: CONTENT_PAGES.fillerContent)
+        pushContentPage(page: CONTENT_PAGES.communicationTips)
+    }
+    
+    @IBAction func learnButtonPressed(_ sender: UIButton) {
+        
     }
     
     override func viewDidLoad() {
@@ -50,7 +58,7 @@ class HealthcareHomeViewController: GeneralMenuController {
     }
     
     func applyButtonStyle(btn: UIButton) -> Void {
-        btn.layer.shadowRadius = 5
+        btn.layer.cornerRadius = 10
         btn.layer.borderColor = UIColor.lightGray.cgColor
         setButtonShadow(btn: btn, color: UIColor.lightGray.cgColor)
     }
