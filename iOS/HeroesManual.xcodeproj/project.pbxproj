@@ -36,6 +36,7 @@
 		76B23229205B855100874001 /* PageStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B23228205B855000874001 /* PageStructs.swift */; };
 		76B2322B205B91C500874001 /* GeneralMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2322A205B91C500874001 /* GeneralMenuController.swift */; };
 		76B2322E205B94D400874001 /* Filler_Content.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2322D205B94D400874001 /* Filler_Content.txt */; };
+		76F2ED96205F1A25007EF78B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2ED95205F1A25007EF78B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		76B23228205B855000874001 /* PageStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageStructs.swift; sourceTree = "<group>"; };
 		76B2322A205B91C500874001 /* GeneralMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralMenuController.swift; sourceTree = "<group>"; };
 		76B2322D205B94D400874001 /* Filler_Content.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Filler_Content.txt; sourceTree = "<group>"; };
+		76F2ED95205F1A25007EF78B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		3C08FE8A2053115700B1713D = {
 			isa = PBXGroup;
 			children = (
+				76F2ED95205F1A25007EF78B /* Utils.swift */,
 				3C08FE952053115700B1713D /* HeroesManual */,
 				3C08FEAA2053115700B1713D /* HeroesManualTests */,
 				3C08FE942053115700B1713D /* Products */,
@@ -313,6 +316,7 @@
 				3C68303F205F095F004D15DD /* ProvideResourcesViewController.swift in Sources */,
 				3C70CDC2205A10E10090AAC0 /* ContentViewController.swift in Sources */,
 				3C683041205F09A0004D15DD /* SafetyPlanViewController.swift in Sources */,
+				76F2ED96205F1A25007EF78B /* Utils.swift in Sources */,
 				3C152F1B205D96CE0015DFB2 /* HealthcareLearnViewController.swift in Sources */,
 				3C753B16205A07ED00B8F123 /* HealthcareHomeViewController.swift in Sources */,
 				3C08FE992053115700B1713D /* IndustrySelectViewController.swift in Sources */,
@@ -470,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R27XCSQSE;
+				DEVELOPMENT_TEAM = D67Q38P6XU;
 				INFOPLIST_FILE = HeroesManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Simba.HeroesManual;
@@ -485,7 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R27XCSQSE;
+				DEVELOPMENT_TEAM = D67Q38P6XU;
 				INFOPLIST_FILE = HeroesManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Simba.HeroesManual;

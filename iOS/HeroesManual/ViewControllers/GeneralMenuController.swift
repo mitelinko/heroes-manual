@@ -20,12 +20,22 @@ class GeneralMenuController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     func pushContentPage(page: Content_Page) {
         let contentPage = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContentViewController") as! ContentViewController
         contentPage.contentPageStruct = page
         self.navigationController?.pushViewController(contentPage, animated: true)
     }
-
+    
+    func applyButtonStyle(btn: UIButton) -> Void {
+        btn.layer.cornerRadius = 10
+        btn.layer.borderColor = UIColor.lightGray.cgColor
+        setButtonShadow(btn: btn, color: UIColor.lightGray.cgColor)
+    }
+    
+    func setButtonShadow(btn: UIButton, color: CGColor) -> Void {
+        btn.layer.shadowColor = color
+        btn.layer.shadowOffset = CGSize(width: 0, height: 0)
+        btn.layer.shadowOpacity = 1.0
+    }
 }

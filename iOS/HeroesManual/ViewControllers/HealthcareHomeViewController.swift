@@ -10,9 +10,6 @@ import UIKit
 
 class HealthcareHomeViewController: GeneralMenuController {
     
-    let SimbaGreen = UIColor(red: 36/255, green: 185/255, blue: 102/255, alpha: 1.0)
-    let SimbaPurple = UIColor(red: 59/255, green: 2/255, blue: 96/255, alpha: 1.0)
-    
     // MARK: Properties
     @IBOutlet weak var screenForDvButton: UIButton!
     @IBOutlet weak var provideResourcesButton: UIButton!
@@ -55,18 +52,6 @@ class HealthcareHomeViewController: GeneralMenuController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func applyButtonStyle(btn: UIButton) -> Void {
-        btn.layer.cornerRadius = 10
-        btn.layer.borderColor = UIColor.lightGray.cgColor
-        setButtonShadow(btn: btn, color: UIColor.lightGray.cgColor)
-    }
-    
-    func setButtonShadow(btn: UIButton, color: CGColor) -> Void {
-        btn.layer.shadowColor = color
-        btn.layer.shadowOffset = CGSize(width: 0, height: 0)
-        btn.layer.shadowOpacity = 1.0
     }
 }
 

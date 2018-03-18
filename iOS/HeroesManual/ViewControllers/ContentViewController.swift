@@ -9,9 +9,6 @@
 import UIKit
 
 class ContentViewController: UIViewController {
-    
-    let SimbaGreen = UIColor(red: 36/255, green: 185/255, blue: 102/255, alpha: 1.0)
-    let SimbaPurple = UIColor(red: 59/255, green: 2/255, blue: 96/255, alpha: 1.0)
     var contentPageStruct : Content_Page!
     
     // MARK: Properties
@@ -29,7 +26,7 @@ class ContentViewController: UIViewController {
         // Stylize the navigation bar
         let navBar = self.navigationController?.navigationBar
         navBar?.prefersLargeTitles = true
-        navBar?.barTintColor = SimbaPurple
+        navBar?.barTintColor = SIMBA_UI_COLORS.purple
         navBar?.tintColor = UIColor.white
         navBar?.largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navBar?.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
@@ -38,7 +35,7 @@ class ContentViewController: UIViewController {
         
         
         
-//        //Add content text
+        //Add content text
         if let contentPage = contentPageStruct {
             self.navigationItem.title = contentPage.title
             loadText(page: contentPage)
@@ -59,7 +56,7 @@ class ContentViewController: UIViewController {
             let navBar = self.navigationController?.navigationBar
             navBar?.prefersLargeTitles = false
             navBar?.barTintColor = UIColor.white
-            navBar?.tintColor = SimbaGreen
+            navBar?.tintColor = SIMBA_UI_COLORS.green
             navBar?.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
             self.navigationItem.largeTitleDisplayMode = .never
         }
