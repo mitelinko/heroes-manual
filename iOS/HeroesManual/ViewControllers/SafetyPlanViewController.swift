@@ -24,16 +24,7 @@ class SafetyPlanViewController: GeneralMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Get them  buttons organized and lookin good
-        var buttonList: [UIButton] = [UIButton]()
-//        buttonList.append(qrCodeButton)
-        buttonList.append(webPageButton)
-        
-        for btn in buttonList {
-            applyButtonStyle(btn: btn)
-        }
-        
+        styleButtons(webPageButton)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

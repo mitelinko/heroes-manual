@@ -36,17 +36,7 @@ class HealthcareHomeViewController: GeneralMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Get them  buttons organized and lookin good
-        var buttonList: [UIButton] = [UIButton]()
-        buttonList.append(screenForDvButton)
-        buttonList.append(provideResourcesButton)
-        buttonList.append(whatToSayButton)
-        buttonList.append(learnButton)
-        for btn in buttonList {
-            applyButtonStyle(btn: btn)
-        }
-        
+        styleButtons(screenForDvButton, provideResourcesButton, whatToSayButton, learnButton)
     }
     
     override func didReceiveMemoryWarning() {

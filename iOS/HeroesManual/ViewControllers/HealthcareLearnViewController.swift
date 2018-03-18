@@ -46,18 +46,7 @@ class HealthcareLearnViewController: GeneralMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Get them  buttons organized and lookin good
-        var buttonList: [UIButton] = [UIButton]()
-        buttonList.append(generalButton)
-        buttonList.append(victimButton)
-        buttonList.append(perpButton)
-        buttonList.append(screeningButton)
-        buttonList.append(communicationButton)
-        buttonList.append(safetyPlanButton)
-        for btn in buttonList {
-            applyButtonStyle(btn: btn)
-        }
+        styleButtons(generalButton, victimButton, perpButton, screeningButton, communicationButton, safetyPlanButton)
         
     }
     override func viewWillAppear(_ animated: Bool) {

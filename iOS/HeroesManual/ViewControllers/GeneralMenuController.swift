@@ -27,15 +27,21 @@ class GeneralMenuController: UIViewController {
         self.navigationController?.pushViewController(contentPage, animated: true)
     }
     
-    func applyButtonStyle(btn: UIButton) -> Void {
+    func applyButtonStyle(btn: UIButton) {
         btn.layer.cornerRadius = 10
         btn.layer.borderColor = UIColor.lightGray.cgColor
         setButtonShadow(btn: btn, color: UIColor.lightGray.cgColor)
     }
     
-    func setButtonShadow(btn: UIButton, color: CGColor) -> Void {
+    func setButtonShadow(btn: UIButton, color: CGColor) {
         btn.layer.shadowColor = color
         btn.layer.shadowOffset = CGSize(width: 0, height: 0)
         btn.layer.shadowOpacity = 1.0
+    }
+    
+    func styleButtons(_ buttons: UIButton...) {
+        for button in buttons {
+            applyButtonStyle(btn: button)
+        }
     }
 }

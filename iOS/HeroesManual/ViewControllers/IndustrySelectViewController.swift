@@ -35,19 +35,10 @@ class IndustrySelectViewController: GeneralMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Get them  buttons organized and lookin good
-        var buttonList: [UIButton] = [UIButton]()
-        buttonList.append(healthcareButton)
-        buttonList.append(lawEnforcementButton)
-        buttonList.append(socialWorkButton)
-        buttonList.append(justiceButton)
-        for btn in buttonList {
-            applyButtonStyle(btn: btn)
-        }
+        styleButtons(healthcareButton, lawEnforcementButton, socialWorkButton, justiceButton)
         
         // Stylize the navigation bar
-        var navBar = self.navigationController?.navigationBar
+        let navBar = self.navigationController?.navigationBar
         navBar?.barTintColor = UIColor.white
         navBar?.tintColor = SIMBA_UI_COLORS.green
         navBar?.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
