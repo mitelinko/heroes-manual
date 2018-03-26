@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
     <SharedGUID>{586597E2-FA7F-4E3B-8A5D-F5EB2BCDB90C}</SharedGUID>
   </PropertyGroup>
-
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>HeroesManual</Import_RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
@@ -22,7 +19,6 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanQRCodePage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanPDFPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ScreeningPage.xaml" />
-
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)GeneralInfoPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)VictimInfoPage.xaml" />
@@ -31,48 +27,37 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)SafetyPlanResourcesPage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ScreeningResourcesPage.xaml" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)ProfessionsPage.xaml.cs">
       <DependentUpon>ProfessionsPage.xaml</DependentUpon>
     </Compile>
-
-	<Compile Include="$(MSBuildThisFileDirectory)HealthcareHomePage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)HealthcareHomePage.xaml.cs">
       <DependentUpon>HealthcareHomePage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)CommunicationTipsPage.xaml.cs">
       <DependentUpon>CommunicationTipsPage.xaml</DependentUpon>
     </Compile>
-
-	<Compile Include="$(MSBuildThisFileDirectory)ProvideResourcesPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)ProvideResourcesPage.xaml.cs">
       <DependentUpon>ProvideResourcesPage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanPage.xaml.cs">
       <DependentUpon>SafetyPlanPage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanQRCodePage.xaml.cs">
       <DependentUpon>SafetyPlanQRCodePage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)SafetyPlanPDFPage.xaml.cs">
       <DependentUpon>SafetyPlanPDFPage.xaml</DependentUpon>
     </Compile>
-    
     <Compile Include="$(MSBuildThisFileDirectory)ScreeningPage.xaml.cs">
       <DependentUpon>ScreeningPage.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="$(MSBuildThisFileDirectory)HealthcareLearnPage.xaml.cs">
       <DependentUpon>HealthcareLearnPage.xaml</DependentUpon>
     </Compile>
@@ -95,5 +80,4 @@
       <DependentUpon>ScreeningResourcesPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-
 </Project>

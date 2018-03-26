@@ -133,17 +133,39 @@
     <BundleResource Include="Resources\SafetyPlanQRCode.png" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H167.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H120.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\H152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\HeroesManual\HeroesManual.projitems" Label="Shared" />

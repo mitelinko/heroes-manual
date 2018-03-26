@@ -113,6 +113,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\SafetyPlanQRCode.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icons_SafetyPlan_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\RealSafetyPlanQRCode.jpg" />
+  </ItemGroup>
   <Import Project="..\HeroesManual\HeroesManual.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

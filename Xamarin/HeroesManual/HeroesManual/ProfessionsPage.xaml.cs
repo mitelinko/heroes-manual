@@ -35,7 +35,9 @@ namespace HeroesManual
 
 		private async void Button_Clicked(object sender, EventArgs e)
 		{
-            Application.Current.Properties["SavedProfession"] = ProfessionEnum.Healthcare;
+            App.Current.Properties["SavedProfession"] = ProfessionEnum.Healthcare;
+            await App.Current.SavePropertiesAsync();
+
 			await Navigation.PushAsync(new HealthcareHomePage());
 		}
 	}

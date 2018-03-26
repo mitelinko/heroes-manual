@@ -7,13 +7,37 @@ using Xamarin.Forms;
 
 namespace HeroesManual
 {
-    
-	public partial class App : Application
+    public enum ProfessionEnum { Healthcare, Judge, Police, Social };
+
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
+
+            if (App.Current.Properties.ContainsKey("SavedProfession"))
+            {
+                var savedProfession = (ProfessionEnum)App.Current.Properties["SavedProfession"];
+                switch (savedProfession)
+                {
+                    case ProfessionEnum.Healthcare:
+                        MainPage = new NavigationPage(new HealthcareHomePage());
+                        break;
+                    case ProfessionEnum.Judge:
+                        break;
+                    case ProfessionEnum.Police:
+                        break;
+                    case ProfessionEnum.Social:
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(savedProfession), "Unsupported profession encountered");
+                }
+            }
+            else
+            {
+                MainPage = new NavigationPage(new MainPage());
+            }
+            
 		}
 
 		protected override void OnStart ()
