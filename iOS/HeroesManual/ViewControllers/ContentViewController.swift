@@ -72,7 +72,7 @@ class ContentViewController: UIViewController {
             }
             
             let textLines: [String] = data.components(separatedBy: .newlines)
-            var contentText = ""
+            let contentText = NSMutableAttributedString(string: "")
             for line in textLines {
                 var spaceCount = 0
                 while (spaceCount < line.count && line[line.index(line.startIndex, offsetBy: spaceCount)] == " ") {
@@ -81,21 +81,27 @@ class ContentViewController: UIViewController {
                 
                 let indexRange = line.index(line.startIndex, offsetBy: spaceCount) ..< line.endIndex
                 var contentLine : String = String(line[indexRange])
-                var prefix = ""
+                let prefix = NSMutableAttributedString()
                 switch spaceCount {
                 case 0:
-                    prefix = ""
+                    prefix.append(NSAttributedString(string: "\n"))
                 case 4:
-                    prefix = "  •"
+                    prefix.append(NSAttributedString(string: "  \(SIMBA_BULLET_SYMBOLS.bullet1)", attributes: SIMBA_TEXT_STYLES.bullet))
                 case 8:
-                    prefix = "    -"
+                    prefix.append(NSAttributedString(string: "    \(SIMBA_BULLET_SYMBOLS.bullet2)", attributes: SIMBA_TEXT_STYLES.bullet))
                 default:
                     print("Possible format error with string: \(line)")
                 }
-                contentLine = "\(prefix) \(contentLine)\n"
-                contentText += contentLine
+                
+                contentLine = "\(contentLine)\n"
+                if spaceCount == 0 {
+                    prefix.append(NSAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.heading))
+                } else {
+                    prefix.append(NSAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.content))
+                }
+                contentText.append(prefix)
             }
-            self.contentTextView.text = contentText
+            self.contentTextView.attributedText = contentText
         }
     }
 }
