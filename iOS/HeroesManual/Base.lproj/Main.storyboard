@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Byx-Lp-ANO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pv0-xY-2aA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -59,7 +59,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="qlc-n6-r6z" kind="show" identifier="IndustryToHealthcare" id="F17-fO-Qbs"/>
+                                                            <segue destination="qlc-n6-r6z" kind="show" identifier="toHealthcare" id="F17-fO-Qbs"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healthcare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esf-Dt-m1W">
@@ -662,7 +662,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's a Safety Plan?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lm7-yL-8GL">
-                                <rect key="frame" x="24" y="94" width="255" height="33"/>
+                                <rect key="frame" x="24" y="94" width="327" height="33"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -674,6 +674,7 @@
                             <constraint firstItem="4dd-hC-yy7" firstAttribute="bottom" secondItem="5TC-LT-t1N" secondAttribute="bottom" constant="48" id="L20-Vx-GvM"/>
                             <constraint firstItem="5TC-LT-t1N" firstAttribute="leading" secondItem="aAe-XY-0Nu" secondAttribute="leading" constant="24" id="aj8-EQ-og2"/>
                             <constraint firstItem="4dd-hC-yy7" firstAttribute="trailing" secondItem="szs-f4-Zyb" secondAttribute="trailing" constant="24" id="hWa-V7-h2g"/>
+                            <constraint firstItem="4dd-hC-yy7" firstAttribute="trailing" secondItem="lm7-yL-8GL" secondAttribute="trailing" constant="24" id="tP6-sZ-94C"/>
                             <constraint firstAttribute="trailing" secondItem="5TC-LT-t1N" secondAttribute="trailing" constant="24" id="tvv-oQ-6tz"/>
                             <constraint firstItem="lm7-yL-8GL" firstAttribute="leading" secondItem="4dd-hC-yy7" secondAttribute="leading" constant="24" id="u6e-h8-irD"/>
                             <constraint firstItem="5TC-LT-t1N" firstAttribute="top" secondItem="szs-f4-Zyb" secondAttribute="bottom" constant="24" id="uMg-BY-KLk"/>
@@ -693,7 +694,7 @@
         <!--Healthcare Home View Controller-->
         <scene sceneID="UCZ-o2-J8w">
             <objects>
-                <viewController id="qlc-n6-r6z" customClass="HealthcareHomeViewController" customModule="HeroesManual" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HealthcareHomeViewController" id="qlc-n6-r6z" customClass="HealthcareHomeViewController" customModule="HeroesManual" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DQY-cf-cru">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -970,7 +971,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Vzk-3W-4u2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Byx-Lp-ANO" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavController" automaticallyAdjustsScrollViewInsets="NO" id="Byx-Lp-ANO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yo1-hc-X2a">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

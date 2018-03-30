@@ -43,7 +43,11 @@ enum USER_PROFESSION: String {
     case firstResponder = "FirstResponder"
     case socialWorker = "SocialWorker"
     case justice = "Justice"
+    case none = "None"
 }
+
+let LANDING_PAGE_DICTIONARY = [USER_PROFESSION.healthcare.rawValue: "HealthcareHomeViewController", USER_PROFESSION.firstResponder.rawValue: "FirstResponderHomeViewController", USER_PROFESSION.socialWorker.rawValue: "SocialWorkerHomeViewController", USER_PROFESSION.justice.rawValue: "JusticeHomeViewController"]
+let HOME_SEGUES_DICTIONARY: [String: USER_PROFESSION] = ["toHealthcare": .healthcare, "toFirstRespondre": .firstResponder, "toSocialWorker": .socialWorker, "toJustice": .justice]
 
 struct Paragraph_Data {
     let symbol : Character

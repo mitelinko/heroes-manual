@@ -16,10 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        if UserDefaults.standard.integer(forKey: USER_METADATA.agreementKey) != USER_METADATA.currentAgreementValue {
+//        if UserDefaults.standard.integer(forKey: USER_METADATA.agreementKey) != USER_METADATA.currentAgreementValue {
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "UserAgreementViewController")
+//            self.window?.makeKeyAndVisible()
+//        }
+        if UserDefaults.standard.integer(forKey: USER_METADATA.agreementKey) == USER_METADATA.currentAgreementValue {
             self.window = UIWindow(frame: UIScreen.main.bounds)
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "UserAgreementViewController")
+            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "MainNavController")
+            let navController = self.window?.rootViewController as! UINavigationController
+            if let userType = UserDefaults.standard.string(forKey: USER_METADATA.professionKey) {
+                if userType != USER_PROFESSION.none.rawValue {
+                    let professionViewController = storyboard.instantiateViewController(withIdentifier: LANDING_PAGE_DICTIONARY[userType]!)
+                    navController.setViewControllers([navController.viewControllers[0], professionViewController], animated: false)
+                }
+            }
             self.window?.makeKeyAndVisible()
         }
         return true

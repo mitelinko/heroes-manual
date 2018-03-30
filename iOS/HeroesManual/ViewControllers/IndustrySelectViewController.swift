@@ -32,12 +32,13 @@ class IndustrySelectViewController: GeneralMenuController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func performSegue(withIdentifier identifier: String, sender: Any?) {
-        switch identifier {
-        case "IndustryToHealthcare":
-            saveUserWith(profession: .healthcare)
-        default:
-            print("You are seguing without an identifier in select page")
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let id = segue.identifier {
+            if let profession = HOME_SEGUES_DICTIONARY[id] {
+                saveUserWith(profession: profession)
+            } else {
+                print("Saving Profession Error")
+            }
         }
     }
 }
