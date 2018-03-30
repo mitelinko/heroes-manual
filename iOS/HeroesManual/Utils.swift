@@ -34,7 +34,7 @@ struct SIMBA_PARAGRAPH_STYLES {
 
 struct USER_METADATA {
     static let agreementKey = "UserAcceptedAgreement"
-    static let currentAgreementValue : Int = 1
+    static let currentAgreementValue : Int = 1      //NEVER SET THIS VALUE TO 0
     static let professionKey = "UserProfessionKey"
 }
 
@@ -47,7 +47,7 @@ enum USER_PROFESSION: String {
 }
 
 let LANDING_PAGE_DICTIONARY = [USER_PROFESSION.healthcare.rawValue: "HealthcareHomeViewController", USER_PROFESSION.firstResponder.rawValue: "FirstResponderHomeViewController", USER_PROFESSION.socialWorker.rawValue: "SocialWorkerHomeViewController", USER_PROFESSION.justice.rawValue: "JusticeHomeViewController"]
-let HOME_SEGUES_DICTIONARY: [String: USER_PROFESSION] = ["toHealthcare": .healthcare, "toFirstRespondre": .firstResponder, "toSocialWorker": .socialWorker, "toJustice": .justice]
+let HOME_SEGUES_DICTIONARY: [String: USER_PROFESSION] = ["toHealthcare": .healthcare, "toFirstResponder": .firstResponder, "toSocialWorker": .socialWorker, "toJustice": .justice]
 
 struct Paragraph_Data {
     let symbol : Character

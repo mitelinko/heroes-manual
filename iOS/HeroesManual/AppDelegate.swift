@@ -16,12 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        if UserDefaults.standard.integer(forKey: USER_METADATA.agreementKey) != USER_METADATA.currentAgreementValue {
-//            self.window = UIWindow(frame: UIScreen.main.bounds)
-//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "UserAgreementViewController")
-//            self.window?.makeKeyAndVisible()
-//        }
         if UserDefaults.standard.integer(forKey: USER_METADATA.agreementKey) == USER_METADATA.currentAgreementValue {
             self.window = UIWindow(frame: UIScreen.main.bounds)
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
