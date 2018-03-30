@@ -44,4 +44,8 @@ class GeneralMenuController: UIViewController {
             applyButtonStyle(btn: button)
         }
     }
+    
+    func saveUserWith(profession: USER_PROFESSION) {
+        UserDefaults.standard.set(profession.rawValue, forKey: USER_METADATA.professionKey)
+    }
 }

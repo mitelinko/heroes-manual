@@ -16,27 +16,9 @@ class IndustrySelectViewController: GeneralMenuController {
     @IBOutlet weak var socialWorkButton: UIButton!
     @IBOutlet weak var justiceButton: UIButton!
     
-    //MARK: Actions
-    @IBAction func healthcareButton(_ sender: Any) {
-        UserDefaults.standard.set("Healthcare", forKey: "Inudstry")
-    }
-    
-    @IBAction func lawEnforcementButton(_ sender: Any) {
-        UserDefaults.standard.set("Law Enforcement", forKey: "Inudstry")
-    }
-    
-    @IBAction func socialWorkButton(_ sender: Any) {
-        UserDefaults.standard.set("Social Work", forKey: "Inudstry")
-    }
-    
-    @IBAction func justiceButton(_ sender: Any) {
-        UserDefaults.standard.set("Justice", forKey: "Inudstry")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         styleButtons(healthcareButton, lawEnforcementButton, socialWorkButton, justiceButton)
-        
         // Stylize the navigation bar
         let navBar = self.navigationController?.navigationBar
         navBar?.barTintColor = UIColor.white
@@ -48,6 +30,15 @@ class IndustrySelectViewController: GeneralMenuController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+        switch identifier {
+        case "IndustryToHealthcare":
+            saveUserWith(profession: .healthcare)
+        default:
+            print("You are seguing without an identifier in select page")
+        }
     }
 }
 

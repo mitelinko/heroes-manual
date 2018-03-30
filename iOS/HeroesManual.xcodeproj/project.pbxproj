@@ -28,6 +28,7 @@
 		3CC376302055D9B2007A5F79 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC376162055D97E007A5F79 /* OpenSans-Regular.ttf */; };
 		3CC376312055D9B2007A5F79 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3761D2055D97F007A5F79 /* OpenSans-SemiBold.ttf */; };
 		3CC376322055D9B2007A5F79 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3761B2055D97F007A5F79 /* OpenSans-SemiBoldItalic.ttf */; };
+		769CC769206C9FC40094F0C9 /* UserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769CC768206C9FC40094F0C9 /* UserAgreementViewController.swift */; };
 		76B23221205B84B500874001 /* Safety_Plan_and_Resources.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2321C205B84B400874001 /* Safety_Plan_and_Resources.txt */; };
 		76B23222205B84B500874001 /* Being_a_Perpetrator.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */; };
 		76B23223205B84B500874001 /* General_Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2321E205B84B400874001 /* General_Info.txt */; };
@@ -75,6 +76,7 @@
 		3CC3761B2055D97F007A5F79 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3CC3761C2055D97F007A5F79 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3CC3761D2055D97F007A5F79 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		769CC768206C9FC40094F0C9 /* UserAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementViewController.swift; sourceTree = "<group>"; };
 		76B2321C205B84B400874001 /* Safety_Plan_and_Resources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Safety_Plan_and_Resources.txt; sourceTree = "<group>"; };
 		76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Being_a_Perpetrator.txt; sourceTree = "<group>"; };
 		76B2321E205B84B400874001 /* General_Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = General_Info.txt; sourceTree = "<group>"; };
@@ -107,7 +109,6 @@
 		3C08FE8A2053115700B1713D = {
 			isa = PBXGroup;
 			children = (
-				76F2ED95205F1A25007EF78B /* Utils.swift */,
 				3C08FE952053115700B1713D /* HeroesManual */,
 				3C08FEAA2053115700B1713D /* HeroesManualTests */,
 				3C08FE942053115700B1713D /* Products */,
@@ -126,6 +127,7 @@
 		3C08FE952053115700B1713D /* HeroesManual */ = {
 			isa = PBXGroup;
 			children = (
+				76F2ED95205F1A25007EF78B /* Utils.swift */,
 				3C08FE962053115700B1713D /* AppDelegate.swift */,
 				3C08FE9A2053115700B1713D /* Main.storyboard */,
 				76B2322C205B930F00874001 /* ViewControllers */,
@@ -188,6 +190,7 @@
 				3C152F1A205D96CE0015DFB2 /* HealthcareLearnViewController.swift */,
 				3C68303E205F095F004D15DD /* ProvideResourcesViewController.swift */,
 				3C683040205F09A0004D15DD /* SafetyPlanViewController.swift */,
+				769CC768206C9FC40094F0C9 /* UserAgreementViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				76B2322B205B91C500874001 /* GeneralMenuController.swift in Sources */,
 				3C68303F205F095F004D15DD /* ProvideResourcesViewController.swift in Sources */,
 				3C70CDC2205A10E10090AAC0 /* ContentViewController.swift in Sources */,
+				769CC769206C9FC40094F0C9 /* UserAgreementViewController.swift in Sources */,
 				3C683041205F09A0004D15DD /* SafetyPlanViewController.swift in Sources */,
 				76F2ED96205F1A25007EF78B /* Utils.swift in Sources */,
 				3C152F1B205D96CE0015DFB2 /* HealthcareLearnViewController.swift in Sources */,

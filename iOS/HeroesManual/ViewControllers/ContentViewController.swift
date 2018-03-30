@@ -84,25 +84,45 @@ class ContentViewController: UIViewController {
                 let prefix = NSMutableAttributedString()
                 switch spaceCount {
                 case 0:
-                    prefix.append(NSAttributedString(string: "\n"))
+                    prefix.append(NSMutableAttributedString(string: "\n"))
                 case 4:
-                    prefix.append(NSAttributedString(string: "  \(SIMBA_BULLET_SYMBOLS.bullet1)", attributes: SIMBA_TEXT_STYLES.bullet))
+                    prefix.append(NSMutableAttributedString(string: "\(SIMBA_PARAGRAPH_STYLES.point.symbol) ", attributes: SIMBA_TEXT_STYLES.bullet))
                 case 8:
-                    prefix.append(NSAttributedString(string: "    \(SIMBA_BULLET_SYMBOLS.bullet2)", attributes: SIMBA_TEXT_STYLES.bullet))
+                    prefix.append(NSMutableAttributedString(string: "\(SIMBA_PARAGRAPH_STYLES.subpoint.symbol) ", attributes: SIMBA_TEXT_STYLES.bullet))
                 default:
                     print("Possible format error with string: \(line)")
                 }
                 
                 contentLine = "\(contentLine)\n"
                 if spaceCount == 0 {
-                    prefix.append(NSAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.heading))
+                    prefix.append(NSMutableAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.heading))
                 } else {
-                    prefix.append(NSAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.content))
+                    prefix.append(NSMutableAttributedString(string: contentLine, attributes: SIMBA_TEXT_STYLES.content))
                 }
+                setParagraphStyle(line: prefix)
                 contentText.append(prefix)
             }
             self.contentTextView.attributedText = contentText
         }
+    }
+    
+    func setParagraphStyle(line: NSMutableAttributedString) {
+
+        let firstChar = line.string[line.string.index(line.string.startIndex, offsetBy: 0)]
+        let chosenStyle = NSMutableParagraphStyle()
+        chosenStyle.alignment = .left
+        
+        switch firstChar {
+        case SIMBA_PARAGRAPH_STYLES.point.symbol:
+            chosenStyle.firstLineHeadIndent = SIMBA_PARAGRAPH_STYLES.point.firstLineHeadIndent
+            chosenStyle.headIndent = SIMBA_PARAGRAPH_STYLES.point.headIndent
+        case SIMBA_PARAGRAPH_STYLES.subpoint.symbol:
+            chosenStyle.firstLineHeadIndent = SIMBA_PARAGRAPH_STYLES.subpoint.firstLineHeadIndent
+            chosenStyle.headIndent = SIMBA_PARAGRAPH_STYLES.subpoint.headIndent
+        default:
+            _ = 4
+        }
+        line.addAttribute(NSAttributedStringKey.paragraphStyle, value: chosenStyle, range: NSMakeRange(0, line.length))
     }
 }
 
