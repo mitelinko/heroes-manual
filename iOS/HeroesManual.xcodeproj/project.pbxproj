@@ -14,6 +14,8 @@
 		3C08FEA12053115700B1713D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C08FE9F2053115700B1713D /* LaunchScreen.storyboard */; };
 		3C08FEAC2053115700B1713D /* HeroesManualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08FEAB2053115700B1713D /* HeroesManualTests.swift */; };
 		3C152F1B205D96CE0015DFB2 /* HealthcareLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C152F1A205D96CE0015DFB2 /* HealthcareLearnViewController.swift */; };
+		3C364825206E808A00E64E17 /* Quiz_Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C364824206E808A00E64E17 /* Quiz_Content.swift */; };
+		3C364827206E80BA00E64E17 /* HealthcareQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C364826206E80BA00E64E17 /* HealthcareQuizViewController.swift */; };
 		3C68303F205F095F004D15DD /* ProvideResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C68303E205F095F004D15DD /* ProvideResourcesViewController.swift */; };
 		3C683041205F09A0004D15DD /* SafetyPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C683040205F09A0004D15DD /* SafetyPlanViewController.swift */; };
 		3C70CDC2205A10E10090AAC0 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C70CDC1205A10E10090AAC0 /* ContentViewController.swift */; };
@@ -62,6 +64,8 @@
 		3C08FEAB2053115700B1713D /* HeroesManualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesManualTests.swift; sourceTree = "<group>"; };
 		3C08FEAD2053115700B1713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C152F1A205D96CE0015DFB2 /* HealthcareLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareLearnViewController.swift; sourceTree = "<group>"; };
+		3C364824206E808A00E64E17 /* Quiz_Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz_Content.swift; sourceTree = "<group>"; };
+		3C364826206E80BA00E64E17 /* HealthcareQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareQuizViewController.swift; sourceTree = "<group>"; };
 		3C68303E205F095F004D15DD /* ProvideResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvideResourcesViewController.swift; sourceTree = "<group>"; };
 		3C683040205F09A0004D15DD /* SafetyPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyPlanViewController.swift; sourceTree = "<group>"; };
 		3C70CDC1205A10E10090AAC0 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 		76B2321B205B849C00874001 /* ContentPages */ = {
 			isa = PBXGroup;
 			children = (
+				3C364824206E808A00E64E17 /* Quiz_Content.swift */,
 				76B23228205B855000874001 /* PageStructs.swift */,
 				76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */,
 				76B23220205B84B500874001 /* Communication_Tips_and_Information.txt */,
@@ -187,6 +192,7 @@
 				3C753B15205A07ED00B8F123 /* HealthcareHomeViewController.swift */,
 				3C70CDC1205A10E10090AAC0 /* ContentViewController.swift */,
 				76B2322A205B91C500874001 /* GeneralMenuController.swift */,
+				3C364826206E80BA00E64E17 /* HealthcareQuizViewController.swift */,
 				3C152F1A205D96CE0015DFB2 /* HealthcareLearnViewController.swift */,
 				3C68303E205F095F004D15DD /* ProvideResourcesViewController.swift */,
 				3C683040205F09A0004D15DD /* SafetyPlanViewController.swift */,
@@ -319,9 +325,11 @@
 				3C68303F205F095F004D15DD /* ProvideResourcesViewController.swift in Sources */,
 				3C70CDC2205A10E10090AAC0 /* ContentViewController.swift in Sources */,
 				769CC769206C9FC40094F0C9 /* UserAgreementViewController.swift in Sources */,
+				3C364827206E80BA00E64E17 /* HealthcareQuizViewController.swift in Sources */,
 				3C683041205F09A0004D15DD /* SafetyPlanViewController.swift in Sources */,
 				76F2ED96205F1A25007EF78B /* Utils.swift in Sources */,
 				3C152F1B205D96CE0015DFB2 /* HealthcareLearnViewController.swift in Sources */,
+				3C364825206E808A00E64E17 /* Quiz_Content.swift in Sources */,
 				3C753B16205A07ED00B8F123 /* HealthcareHomeViewController.swift in Sources */,
 				3C08FE992053115700B1713D /* IndustrySelectViewController.swift in Sources */,
 				3C08FE972053115700B1713D /* AppDelegate.swift in Sources */,
