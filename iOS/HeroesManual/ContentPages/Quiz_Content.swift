@@ -87,40 +87,22 @@ let q9 = QuizItem(question: "Which of the following is FALSE about the effects o
                   answer: 2,
                   details: "While alcohol and drugs can alter the state of an abuser, these substances should not be blamed for their violent or abusive actions.")
 
-let q10 = QuizItem(question: <#T##String#>,
-                  options: <#T##[String]#>,
-                  answer: <#T##Int#>,
-                  details: <#T##String#>)
+let q10 = QuizItem(question: "Which of the following is a reason a patient might give for not leaving a relationship?",
+                  options: ["Belief that they are the only one who can help the abuser with their problems.",
+                            "Belief that the abusive partner will change because of his/her remorse and promises to stop battering.",
+                            "Lack of financial resources and anxiety about making a major life change.",
+                            "Concerns over breaking the family up and guilt associated with a failed relationship.",
+                            "All of the above"],
+                  answer: 4,
+                  details: "There are many reasons why a patient might feel unable to leave. As a healthcare provider, you should refrain from passing judgement and focus on assisting them in creating safety plan and providing other helpful resources.")
 
-let q11 = QuizItem(question: <#T##String#>,
-                   options: <#T##[String]#>,
-                   answer: <#T##Int#>,
-                   details: <#T##String#>)
-
-class Q10 {
-    static let question = "Which of the following is a reason a patient might give for not leaving a relationship?"
-    static let a = "Belief that they are the only one who can help the abuser with their problems."
-    static let b = "Belief that the abusive partner will change because of his/her remorse and promises to stop battering."
-    static let c = "Lack of financial resources and anxiety about making a major life change."
-    static let d = "Concerns over breaking the family up and guilt associated with a failed relationship."
-    static let e = "All of the above"
-    static let options = [a, b, c, d, e]
-    static let answer = "e"
-    static let details = "There are many reasons why a patient might feel unable to leave. As a healthcare provider, you should refrain from passing judgement and focus on assisting them in creating safety plan and providing other helpful resources."
-}
-
-class Q11 {
-    static let question = "Which of the following is NOT a correct practice for documenting domestic violence?"
-    static let a = "Use phrases such as the “patient claims” or “patient alleges.”"
-    static let b = "Set off the patient’s own words in quotation marks or use such phrases as “patient states” or “patient reports” to indicate that the information recorded reflects the patient’s words."
-    static let c = "Describe the patient’s demeanor, indicating, for example, whether she is crying or shaking or seems angry, agitated, upset, calm, or happy."
-    static let d = "Record the time of day the patient is examined and, if possible, indicate how much time has elapsed since the abuse occurred."
-    static let e = "Describe physical injuries, taking photos if consistent with facility policy."
-    static let options = [a, b, c, d, e]
-    static let answer = "a"
-    static let details = "Remember that all documentation is admissible in court and can be vital to a patient’s case. The above phrases imply doubt about the patient’s reliability. In general, be as detailed and factual as possible with documentation, using medical terminology as opposed to legal terms."
-}
-
+let q11 = QuizItem(question: "Which of the following is NOT a correct practice for documenting domestic violence?",
+                   options: ["Use phrases such as the “patient claims” or “patient alleges.”",
+                            "Set off the patient’s own words in quotation marks or use such phrases as “patient states” or “patient reports” to indicate that the information recorded reflects the patient’s words.",
+                            "Record the time of day the patient is examined and, if possible, indicate how much time has elapsed since the abuse occurred.",
+                            "Describe the patient’s demeanor, indicating, for example, whether she is crying or shaking or seems angry, agitated, upset, calm, or happy."],
+                   answer: 0,
+                   details: "Remember that all documentation is admissible in court and can be vital to a patient’s case. The above phrases imply doubt about the patient’s reliability. In general, be as detailed and factual as possible with documentation, using medical terminology as opposed to legal terms.")
 
 
 
