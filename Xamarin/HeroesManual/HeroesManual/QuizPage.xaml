@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeroesManual.QuizPage" 
+             Title="Test Your Knowledge"  >
+  <ContentPage.Content>
+    <ScrollView>
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Text="{Binding QuestionNumber}" HorizontalTextAlignment="Center" Margin="5"/>
+        
+        <Label Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="1" Text="{Binding Question}" HorizontalTextAlignment="Center" Margin="20"/>
+
+        <Button Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" Text="{Binding AnswerA}" Clicked="AnswerA_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10"/>
+        <Button Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="3" Text="{Binding AnswerB}" Clicked="AnswerB_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10"/>
+        <Button Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" Text="{Binding AnswerC}" Clicked="AnswerC_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10"/>
+      </Grid>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

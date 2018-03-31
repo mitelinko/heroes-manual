@@ -3,10 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="HeroesManual.HealthcareLearnPage"
     Title="Learn More">
-
+  <ScrollView>
     <Grid >
-     
-        <Button x:Name="btnGeneralInfo"
+
+      <Button x:Name="btnGeneralInfo"
             Text="General Information"
             Clicked="btnGeneralInfo_Clicked"
             ContentLayout="Top,-15" 
@@ -19,8 +19,8 @@
             Margin="10"
             Grid.Row="0"
             Grid.Column="0" />
-        
-        <Button x:Name="btnVictimInfo"
+
+      <Button x:Name="btnVictimInfo"
             Text="What It's Like to Be a Victim"
             Clicked="btnVictimInfo_Clicked"
             ContentLayout="Top,-15" 
@@ -32,8 +32,8 @@
             BorderRadius="5"
             Margin="10"
             Grid.Row="1"/>
-        
-        <Button x:Name="btnPerpInfo"
+
+      <Button x:Name="btnPerpInfo"
             Text="What It's Like to Be a Perpetrator"
             Clicked="btnPerpInfo_Clicked"
             ContentLayout="Top,-15" 
@@ -45,8 +45,8 @@
             BorderRadius="5"
             Margin="10"
             Grid.Row="2"/>
-        
-        <Button Text="Safety Plan"
+
+      <Button Text="Safety Plan"
             ContentLayout="Left" 
             BackgroundColor="White"
             TextColor="#40806a"
@@ -58,8 +58,8 @@
             Grid.Row="3"
             Grid.Column="0"
             Clicked="safetyPlanButton_Clicked"/>
-        
-        <Button Text="Communication Resources"
+
+      <Button Text="Communication Resources"
             ContentLayout="Left" 
             BackgroundColor="White"
             TextColor="#40806a"
@@ -71,8 +71,8 @@
             Grid.Row="4"
             Grid.Column="0"
             Clicked="communicationResourcesButton_Clicked"/>
-        
-        <Button Text="Screening Resources"
+
+      <Button Text="Screening Resources"
             ContentLayout="Left" 
             BackgroundColor="White"
             TextColor="#40806a"
@@ -84,6 +84,21 @@
             Grid.Row="2"
             Grid.Column="0"
             Clicked="screeningResourcesButton_Clicked"/>
+
+      <Button Text="Test Your Knowledge"
+            ContentLayout="Left" 
+            BackgroundColor="White"
+            TextColor="#40806a"
+            Font="Bold,20"
+            BorderColor="Black"
+            BorderWidth="1"
+            BorderRadius="5"
+            Margin="10"
+            Grid.Row="2"
+            Grid.Column="0"
+            Clicked="testYourKnowledgeButton_Clicked"/>
+
     </Grid>
-    
+  </ScrollView>
+
 </ContentPage>

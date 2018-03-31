@@ -17,7 +17,7 @@
             <!--<Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />-->
-            <Button x:Name="btnAgree" Text="Agree" Clicked="Button_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10,10,10,10"/>
+            <Button x:Name="btnAgree" Text="Agree" Clicked="Button_Clicked" BackgroundColor="#11bf77" TextColor="White" Margin="10"/>
         </StackLayout>
 
 </ContentPage>
