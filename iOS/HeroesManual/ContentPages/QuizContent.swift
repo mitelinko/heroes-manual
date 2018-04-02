@@ -1,5 +1,5 @@
 //
-//  Quiz_Content.swift
+//  QuizContent.swift
 //  HeroesManual
 //
 //  Created by Tucker on 3/28/18.
@@ -8,6 +8,10 @@
 
 import Foundation
 
+class QuizItems {
+    var items = Questions
+}
+
 struct QuizItem {
     let question: String
     let options: [String]
@@ -15,7 +19,7 @@ struct QuizItem {
     let details: String
 }
 
-var Questions: [QuizItem] = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]
+let Questions: [QuizItem] = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]
 
 let q1 = QuizItem(question: "What age group has the highest rate of intimate partner violence?",
                   options: ["Teen girls and young childbearing women (18-24)",

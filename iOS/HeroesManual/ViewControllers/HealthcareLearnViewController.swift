@@ -17,6 +17,7 @@ class HealthcareLearnViewController: GeneralMenuController {
     @IBOutlet weak var screeningButton: UIButton!
     @IBOutlet weak var communicationButton: UIButton!
     @IBOutlet weak var safetyPlanButton: UIButton!
+    @IBOutlet weak var testYourKnowledgeButton: UIButton!
     
     // MARK: Actions
     @IBAction func generalButtonPressed(_ sender: UIButton) {
@@ -46,7 +47,7 @@ class HealthcareLearnViewController: GeneralMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        styleButtons(generalButton, victimButton, perpButton, screeningButton, communicationButton, safetyPlanButton)
+        styleButtons(generalButton, victimButton, perpButton, screeningButton, communicationButton, safetyPlanButton, testYourKnowledgeButton)
         
     }
     override func viewWillAppear(_ animated: Bool) {
