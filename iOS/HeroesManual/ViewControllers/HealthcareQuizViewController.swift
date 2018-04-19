@@ -13,6 +13,8 @@ class HealthcareQuizViewController: GeneralMenuController {
     var currentQuestion = 0
     let quizItems = QuizItems().items
     var optionsButtons: [UIButton] = [UIButton]()
+    var numCorrect = 0
+    var isDone = false
 
     // MARK: Properties
     @IBOutlet weak var questionLabel: UILabel!
@@ -29,6 +31,7 @@ class HealthcareQuizViewController: GeneralMenuController {
     @IBOutlet weak var popUpView: UIView!
     @IBOutlet var parentView: UIView!
     @IBOutlet weak var whiteBackgroundImage: UIImageView!
+    @IBOutlet weak var nextButton: UIButton!
     
     
     // MARK: Actions
@@ -49,13 +52,23 @@ class HealthcareQuizViewController: GeneralMenuController {
     }
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         currentQuestion += 1
-        whiteBackgroundImage.alpha = 0.0
-        questionLabel.alpha = 1.0
-        displayQuestion(questionNumber: currentQuestion, optionsButtons: optionsButtons)
-        popUpXConstraint.constant = 500
-        UIView.animate(withDuration: 0.3, animations: {
-            self.view.layoutIfNeeded()
-        })
+        if (isDone) {
+            displayQuestion(questionNumber: currentQuestion, optionsButtons: optionsButtons)
+        } else if (currentQuestion > 10) {
+            correctLabel.text = "Results"
+            correctLabel.textColor = UIColor.black
+            detailsLabel.text = "You got " + String(numCorrect) + " out of 11 questions correct."
+            nextButton.setTitle("Done", for: .normal)
+            isDone = true
+        } else {
+            whiteBackgroundImage.alpha = 0.0
+            questionLabel.alpha = 1.0
+            displayQuestion(questionNumber: currentQuestion, optionsButtons: optionsButtons)
+            popUpXConstraint.constant = 500
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+        }
     }
     
     override func viewDidLoad() {
@@ -94,6 +107,7 @@ class HealthcareQuizViewController: GeneralMenuController {
     func showResultPopUp(answer: Int) {
         if (quizItems[currentQuestion].answer == answer)  {
             correctLabel.text = "Correct"
+            numCorrect = numCorrect + 1
             correctLabel.textColor = SIMBA_UI_COLORS.green
             detailsLabel.text = quizItems[currentQuestion].details
         } else {
@@ -112,20 +126,28 @@ class HealthcareQuizViewController: GeneralMenuController {
     
     func displayQuestion(questionNumber: Int, optionsButtons: [UIButton]) {
         
-        // Question
-        questionLabel.text = quizItems[currentQuestion].question
-        self.view.addSubview(questionLabel)
-        
-        var i = 0
-        for button in optionsButtons {
-            let options = quizItems[currentQuestion].options
-            if (i < options.count) {
-                button.setTitle(quizItems[currentQuestion].options[i], for: .normal)
-                button.titleLabel?.textAlignment = NSTextAlignment.center
-            } else {
-                optionsButtons[i].removeFromSuperview()
+        // This is so bad. TODO fix this.
+        if (isDone) {
+            if let navController = self.navigationController {
+                navController.popViewController(animated: true)
             }
-            i += 1
+        } else {
+        
+            // Question
+            questionLabel.text = quizItems[currentQuestion].question
+            self.view.addSubview(questionLabel)
+            
+            var i = 0
+            for button in optionsButtons {
+                let options = quizItems[currentQuestion].options
+                if (i < options.count) {
+                    button.setTitle(quizItems[currentQuestion].options[i], for: .normal)
+                    button.titleLabel?.textAlignment = NSTextAlignment.center
+                } else {
+                    optionsButtons[i].removeFromSuperview()
+                }
+                i += 1
+            }
         }
     }
     
