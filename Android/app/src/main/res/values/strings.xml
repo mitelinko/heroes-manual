@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">HeroesManual</string>
+    <string name="app_name">Heroes Manual</string>
+    <string name="disclaimer_contents">The contents of this application are based on articles in the scientific literature. Every effort has been made to provide valid and accurate information on domestic violence as reported in study findings and as recognized best practices. However, information and research findings change rapidly. Third-party web links and opinions may not correspond with the state of current knowledge on domestic violence. We cannot guarantee the validity of the information found in this application or the associated web links. Therefore, none of the persons, contributors, sponsors, institutions or anyone else connected with this application in any way whatsoever can be responsible for the appearance of any inaccurate or libelous information or for injury or for death or for your or others use of the information contained in or linked from this application. If you need additional information (for example, medical, legal, financial or risk management) for the victim or the abuser, you are encouraged to seek specific advice from licensed professionals knowledgeable in that area.\n\nWarning: Sharing information about the victim, the abuser, or their domestic violence situation with unauthorized individuals is against the law and may have dire health or other adverse consequences for you and the persons involved.</string>
+    <string name="keyDisclaimerAccepted">DisclaimerAccepted</string>
+    <string name="keyAppPreferences">AppPreferences</string>
+
 </resources>
