@@ -14,3 +14,4 @@ In order to run:
 Currently there are 2 ways to run the **Heroes' Manual**: out of a development environment; or get the iOS version off of TestFlight.
 
 Android: https://play.google.com/store/apps/details?id=dev.simba.heroesmanual
+iOS: TOCOME
