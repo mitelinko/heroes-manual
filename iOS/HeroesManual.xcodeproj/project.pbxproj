@@ -30,6 +30,7 @@
 		3CC376302055D9B2007A5F79 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC376162055D97E007A5F79 /* OpenSans-Regular.ttf */; };
 		3CC376312055D9B2007A5F79 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3761D2055D97F007A5F79 /* OpenSans-SemiBold.ttf */; };
 		3CC376322055D9B2007A5F79 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3761B2055D97F007A5F79 /* OpenSans-SemiBoldItalic.ttf */; };
+		766FFFF5208CEF44002C9A18 /* Victim_Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 766FFFF4208CEF44002C9A18 /* Victim_Info.txt */; };
 		769CC769206C9FC40094F0C9 /* UserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769CC768206C9FC40094F0C9 /* UserAgreementViewController.swift */; };
 		76B23221205B84B500874001 /* Safety_Plan_and_Resources.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2321C205B84B400874001 /* Safety_Plan_and_Resources.txt */; };
 		76B23222205B84B500874001 /* Being_a_Perpetrator.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */; };
@@ -39,6 +40,8 @@
 		76B23229205B855100874001 /* PageStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B23228205B855000874001 /* PageStructs.swift */; };
 		76B2322B205B91C500874001 /* GeneralMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2322A205B91C500874001 /* GeneralMenuController.swift */; };
 		76B2322E205B94D400874001 /* Filler_Content.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76B2322D205B94D400874001 /* Filler_Content.txt */; };
+		76DEA59D208990D600E84026 /* What_to_Say_Resource.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76DEA59C208990D500E84026 /* What_to_Say_Resource.txt */; };
+		76DEA59F208990E100E84026 /* Screening_Resource.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76DEA59E208990E100E84026 /* Screening_Resource.txt */; };
 		76F2ED96205F1A25007EF78B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2ED95205F1A25007EF78B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +83,7 @@
 		3CC3761B2055D97F007A5F79 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3CC3761C2055D97F007A5F79 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3CC3761D2055D97F007A5F79 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		766FFFF4208CEF44002C9A18 /* Victim_Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Victim_Info.txt; sourceTree = "<group>"; };
 		769CC768206C9FC40094F0C9 /* UserAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementViewController.swift; sourceTree = "<group>"; };
 		76B2321C205B84B400874001 /* Safety_Plan_and_Resources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Safety_Plan_and_Resources.txt; sourceTree = "<group>"; };
 		76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Being_a_Perpetrator.txt; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 		76B23228205B855000874001 /* PageStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageStructs.swift; sourceTree = "<group>"; };
 		76B2322A205B91C500874001 /* GeneralMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralMenuController.swift; sourceTree = "<group>"; };
 		76B2322D205B94D400874001 /* Filler_Content.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Filler_Content.txt; sourceTree = "<group>"; };
+		76DEA59C208990D500E84026 /* What_to_Say_Resource.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = What_to_Say_Resource.txt; sourceTree = "<group>"; };
+		76DEA59E208990E100E84026 /* Screening_Resource.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Screening_Resource.txt; sourceTree = "<group>"; };
 		76F2ED95205F1A25007EF78B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,8 +179,11 @@
 		76B2321B205B849C00874001 /* ContentPages */ = {
 			isa = PBXGroup;
 			children = (
+				76DEA59C208990D500E84026 /* What_to_Say_Resource.txt */,
 				3C364824206E808A00E64E17 /* QuizContent.swift */,
+				76DEA59E208990E100E84026 /* Screening_Resource.txt */,
 				76B23228205B855000874001 /* PageStructs.swift */,
+				766FFFF4208CEF44002C9A18 /* Victim_Info.txt */,
 				76B2321D205B84B400874001 /* Being_a_Perpetrator.txt */,
 				76B23220205B84B500874001 /* Communication_Tips_and_Information.txt */,
 				76B2322D205B94D400874001 /* Filler_Content.txt */,
@@ -291,9 +300,12 @@
 				3CC3762D2055D9B2007A5F79 /* OpenSans-Italic.ttf in Resources */,
 				3CC376322055D9B2007A5F79 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				3CC3762C2055D9B2007A5F79 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				76DEA59D208990D600E84026 /* What_to_Say_Resource.txt in Resources */,
 				3CC376312055D9B2007A5F79 /* OpenSans-SemiBold.ttf in Resources */,
 				76B23225205B84B500874001 /* Communication_Tips_and_Information.txt in Resources */,
+				766FFFF5208CEF44002C9A18 /* Victim_Info.txt in Resources */,
 				76B23223205B84B500874001 /* General_Info.txt in Resources */,
+				76DEA59F208990E100E84026 /* Screening_Resource.txt in Resources */,
 				3C08FE9E2053115700B1713D /* Assets.xcassets in Resources */,
 				3CC3762F2055D9B2007A5F79 /* OpenSans-LightItalic.ttf in Resources */,
 				3CC376292055D9B2007A5F79 /* OpenSans-Bold.ttf in Resources */,
@@ -486,7 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R27XCSQSE;
+				DEVELOPMENT_TEAM = D67Q38P6XU;
 				INFOPLIST_FILE = HeroesManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamsimba.heroesmanual;
@@ -501,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5R27XCSQSE;
+				DEVELOPMENT_TEAM = D67Q38P6XU;
 				INFOPLIST_FILE = HeroesManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamsimba.heroesmanual;

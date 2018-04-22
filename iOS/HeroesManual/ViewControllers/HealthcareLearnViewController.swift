@@ -25,7 +25,7 @@ class HealthcareLearnViewController: GeneralMenuController {
     }
     
     @IBAction func victimButtonPressed(_ sender: UIButton) {
-        pushContentPage(page: CONTENT_PAGES.fillerContent)
+        pushContentPage(page: CONTENT_PAGES.victimInfo)
     }
     
     @IBAction func perpButtonPressed(_ sender: UIButton) {
@@ -33,11 +33,11 @@ class HealthcareLearnViewController: GeneralMenuController {
     }
     
     @IBAction func screeningButtonPressed(_ sender: UIButton) {
-        pushContentPage(page: CONTENT_PAGES.fillerContent)
+        pushContentPage(page: CONTENT_PAGES.screeningResources)
     }
     
     @IBAction func communicationButtonPressed(_ sender: UIButton) {
-        pushContentPage(page: CONTENT_PAGES.fillerContent)
+        pushContentPage(page: CONTENT_PAGES.whatToSayResource)
     }
     
     @IBAction func safetyPlanButtonPressed(_ sender: UIButton) {
