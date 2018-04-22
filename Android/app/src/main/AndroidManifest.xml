@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Disclaimer">
@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HealthcareHome" />
+        <activity android:name=".Learn" />
+        <activity android:name=".ScreenForDV" />
+        <activity android:name=".ResourcesPage" />
+        <activity android:name=".WhatToSay" />
+        <activity android:name=".SafetyPlan" />
+        <activity android:name=".QRCode" />
+        <activity android:name=".GeneralInfo" />
+        <activity android:name=".VictimInfo" />
+        <activity android:name=".PerpatratorInfo" />
+        <activity android:name=".ScreeningInfo" />
+        <activity android:name=".TestYourKnowledge"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/resource_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/primaryColor"
+        android:elevation="4dp"
+        android:gravity="top"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingTop="30dp"
+            android:text="General Info"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="16dp" />
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_toolbar">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="General"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Nearly 20 people per minute are physically abused by an intimate partner in the US\n\nThis equates to more than 10 million people per year\n\nMore than 20,000 phone calls placed to domestic violence hotlines daily in the US\n\nThe presence of a gun in a domestic violence situation increases the risk of homicide by 500%\n\nIntimate partner violence accounts for 15% of all violent crime in the US\n\nWomen between the ages of 18-24 are most commonly abused by an intimate partner\n\n1 in 7 women and 1 in 18 men are severely injured by intimate partners in their lifetimes\n\nAround 40% of female murder victims are killed by intimate partners\n\nSlightly more than half of intimate partner physical violence is reported to law enforcement"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView24"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Effects on Children"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="1 in 15 children are exposed to intimate partner violence each year 5\n\nStudies show that 3-4 million children between the ages of 3-17 are at risk domestic violence exposure each year\n\nChildren exposed to domestic violence are generally more anxious than those who are not exposed\n\nChildren may blame themselves for the abuse and feel isolated\n\nBecause the victim and offenders are preoccupied with the domestic violence, children often do not get the attention they need\n\nChildren who witness domestic abuse have higher risks of alcohol/drug abuse, post traumatic stress syndrome, and juvenile delinquency"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Economic Impact"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Victims of intimate partner violence lose a total of 8.0 million days of paid work each year\n\nIntimate partner violence costs exceeds $5.8 billion each year, $4.1 billion of this is for direct medical and mental health services\n\nBetween 21-60% of victims of intimate partner violence lose their jobs due to reasons stemming from the abuse\n\nOver three-quarters of offenders used workplace resources at least once to express remorse or anger, check up on, pressure, or threaten the victim"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView40"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Health Issues"
+                android:textColor="@color/primaryDarkColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Domestic violence is associated with mental health problems including anxiety, post-traumatic stress disorder, and depression\n\nAbused women have an increased risk of unplanned pregnancy and sexually transmitted diseases including HIV/AIDS\n\nStudies have shown that the risk of contracting HIV is at least two times greater for women who experience domestic violence\n\nTrauma victims are also at an increased risk of substance abuse\n\nWomen who experience intimate partner abuse are three times more likely to have gynecological problems than non-abused women\n\n95% of men who physically abuse their intimate partners also psychologically abuse them\n\nBecause strangulation, a common method of abuse, rarely leaves vivid marks, police may not recognize the victim’s need for medical assistance\n\nInjuries from strangulation may seem light at first but can kill the victim within 36 hours\n\n"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
