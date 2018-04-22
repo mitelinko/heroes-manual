@@ -10,8 +10,12 @@ In order to run:
 * the pure iOS solution you need to use [Xcode](https://developer.apple.com/xcode/)
 * the Xamarin solution you need [Visual Studio](https://www.visualstudio.com/downloads/)
 
-## Installing the apps
-Currently there are 2 ways to run the **Heroes' Manual**: out of a development environment; or get the iOS version off of TestFlight.
+## Release Notes v1.0
+* The application is fully built out for all basic features for the Healthcare Section, including the Communication Tips, Screening for DV, Providing Resources and Learning.
+* In the future, other service provider sections need to be developed later on.
 
-Android: https://play.google.com/store/apps/details?id=dev.simba.heroesmanual
+## Installing the apps
+Currently there are 2 ways to run the **Heroes' Manual**: downloading the Android application from the Play store below or get the iOS version off of TestFlight by emailing [Tucker](tuckerlocicero@yahoo.com).
+
+[Android](https://play.google.com/store/apps/details?id=dev.simba.heroesmanual)
 iOS: TOCOME
