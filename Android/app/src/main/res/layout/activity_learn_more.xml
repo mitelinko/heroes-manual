@@ -163,6 +163,7 @@
 
         <Button
             android:id="@+id/btnTestYourKnowledge"
+            style="@android:style/Widget.Material.Button.Colored"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -172,7 +173,9 @@
             android:background="@android:color/white"
             android:elevation="2dp"
             android:text="Test Your Knowledge"
-            android:textColor="@color/secondaryColor"
+            android:textColor="@color/secondaryDarkColor"
+            android:textStyle="bold"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -180,6 +183,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnGeneralInfo"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -197,6 +201,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnVictimInfo"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -214,6 +219,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnPerpatratorInfo"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -231,6 +237,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnLearnScreeningInfo"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -248,6 +255,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnLearnWhatToSay"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -265,6 +273,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnLearnSafetyPlan"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
