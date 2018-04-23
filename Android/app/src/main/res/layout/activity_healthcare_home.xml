@@ -57,6 +57,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnScreenForDV"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -89,6 +90,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnWhatToSay"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -136,7 +138,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnResources"
-            style="@android:style/Widget.DeviceDefault.ImageButton"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"
@@ -171,6 +173,7 @@
 
         <ImageButton
             android:id="@+id/imgBtnLearn"
+            style="@android:style/Widget.Material.ImageButton"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginBottom="8dp"

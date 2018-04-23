@@ -46,7 +46,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="A safety plan is a personalized, practical plan that details ways to stay safe while in a relationship, planning to leave or after leaving."
+        android:text="A safety plan is a personalized, practical plan that answerDetails ways to stay safe while in a relationship, planning to leave or after leaving."
         android:textColor="@color/primaryDarkColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -87,6 +87,7 @@
 
     <ImageButton
         android:id="@+id/imgBtnWebSafetyPlan"
+        style="@android:style/Widget.Material.ImageButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -94,6 +95,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/white"
+        android:elevation="2dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_web_link"
         app:layout_constraintBottom_toTopOf="@+id/textView17"
@@ -133,6 +135,7 @@
 
     <ImageButton
         android:id="@+id/imgBtnQRCode"
+        style="@android:style/Widget.Material.ImageButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -140,6 +143,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/white"
+        android:elevation="2dp"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_qr_code"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
