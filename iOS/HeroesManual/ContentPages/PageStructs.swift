@@ -20,6 +20,9 @@ struct CONTENT_PAGES {
     static let safetyPlanResources = Content_Page(title: "Safety Plan", fileName: "Safety_Plan_and_Resources")
     static let screeningContent = Content_Page(title: "Screen for DV", fileName: "Screening_Content")
     static let fillerContent = Content_Page(title: "Filler", fileName: "Filler_Content")
+    static let screeningResources = Content_Page(title: "Screening", fileName: "Screening_Resource")
+    static let whatToSayResource = Content_Page(title: "What to Say", fileName: "What_to_Say_Resource")
+    static let victimInfo = Content_Page(title: "Victim Info", fileName: "Victim_Info")
 }
 
 //enum CONTENT_PAGES: Content_Page {
