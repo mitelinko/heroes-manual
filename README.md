@@ -19,6 +19,6 @@ Currently there are 2 ways to run the **Heroes' Manual**: download the Android a
 
 [Android](https://play.google.com/store/apps/details?id=dev.simba.heroesmanual)
 
-iOS: _SOON_
+[iOS](https://itunes.apple.com/us/app/heroes-manual/id1351120838?mt=8&ign-mpt=uo%3D4)
 
 Created with :purple_heart: at Georgia Institute of Technology
